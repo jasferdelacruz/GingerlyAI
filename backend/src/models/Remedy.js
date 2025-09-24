@@ -29,24 +29,52 @@ module.exports = (sequelize) => {
       allowNull: false
     },
     symptoms: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
+      type: DataTypes.JSON,
       allowNull: false,
-      defaultValue: []
+      defaultValue: [],
+      get() {
+        const value = this.getDataValue('symptoms');
+        return typeof value === 'string' ? JSON.parse(value) : value || [];
+      },
+      set(value) {
+        this.setDataValue('symptoms', JSON.stringify(value || []));
+      }
     },
     causes: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
+      type: DataTypes.JSON,
       allowNull: true,
-      defaultValue: []
+      defaultValue: [],
+      get() {
+        const value = this.getDataValue('causes');
+        return typeof value === 'string' ? JSON.parse(value) : value || [];
+      },
+      set(value) {
+        this.setDataValue('causes', JSON.stringify(value || []));
+      }
     },
     treatments: {
-      type: DataTypes.ARRAY(DataTypes.TEXT),
+      type: DataTypes.JSON,
       allowNull: false,
-      defaultValue: []
+      defaultValue: [],
+      get() {
+        const value = this.getDataValue('treatments');
+        return typeof value === 'string' ? JSON.parse(value) : value || [];
+      },
+      set(value) {
+        this.setDataValue('treatments', JSON.stringify(value || []));
+      }
     },
     preventionMeasures: {
-      type: DataTypes.ARRAY(DataTypes.TEXT),
+      type: DataTypes.JSON,
       allowNull: true,
-      defaultValue: []
+      defaultValue: [],
+      get() {
+        const value = this.getDataValue('preventionMeasures');
+        return typeof value === 'string' ? JSON.parse(value) : value || [];
+      },
+      set(value) {
+        this.setDataValue('preventionMeasures', JSON.stringify(value || []));
+      }
     },
     severity: {
       type: DataTypes.ENUM('low', 'medium', 'high', 'critical'),

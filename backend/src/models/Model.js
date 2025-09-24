@@ -42,14 +42,21 @@ module.exports = (sequelize) => {
       comment: 'Model size in bytes'
     },
     inputShape: {
-      type: DataTypes.JSONB,
+      type: DataTypes.JSON,
       allowNull: false,
       comment: 'Expected input shape for the model'
     },
     outputClasses: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
+      type: DataTypes.JSON,
       allowNull: false,
-      comment: 'List of disease classes the model can predict'
+      comment: 'List of disease classes the model can predict',
+      get() {
+        const value = this.getDataValue('outputClasses');
+        return typeof value === 'string' ? JSON.parse(value) : value || [];
+      },
+      set(value) {
+        this.setDataValue('outputClasses', JSON.stringify(value || []));
+      }
     },
     accuracy: {
       type: DataTypes.DECIMAL(5, 4),
@@ -85,7 +92,7 @@ module.exports = (sequelize) => {
       comment: 'MD5/SHA256 checksum for integrity verification'
     },
     metadata: {
-      type: DataTypes.JSONB,
+      type: DataTypes.JSON,
       allowNull: true,
       comment: 'Additional model metadata (framework, architecture, etc.)'
     }

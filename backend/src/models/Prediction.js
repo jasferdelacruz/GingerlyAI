@@ -36,7 +36,7 @@ module.exports = (sequelize) => {
       allowNull: false
     },
     predictionResults: {
-      type: DataTypes.JSONB,
+      type: DataTypes.JSON,
       allowNull: false,
       comment: 'Stores ML model prediction results with confidence scores'
     },
@@ -60,12 +60,12 @@ module.exports = (sequelize) => {
       comment: 'Whether prediction was made offline on device'
     },
     deviceInfo: {
-      type: DataTypes.JSONB,
+      type: DataTypes.JSON,
       allowNull: true,
       comment: 'Device information where prediction was made'
     },
     location: {
-      type: DataTypes.JSONB,
+      type: DataTypes.JSON,
       allowNull: true,
       comment: 'GPS coordinates where image was captured'
     },

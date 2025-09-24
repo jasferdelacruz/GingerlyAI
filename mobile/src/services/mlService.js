@@ -1,5 +1,5 @@
 import * as tf from '@tensorflow/tfjs';
-import '@tensorflow/tfjs-react-native';
+import '@tensorflow/tfjs-backend-webgl';
 import { databaseService } from './databaseService';
 
 class MLService {

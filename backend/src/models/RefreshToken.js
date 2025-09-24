@@ -29,7 +29,7 @@ module.exports = (sequelize) => {
       defaultValue: false
     },
     deviceInfo: {
-      type: DataTypes.JSONB,
+      type: DataTypes.JSON,
       allowNull: true,
       comment: 'Device information for tracking sessions'
     }
