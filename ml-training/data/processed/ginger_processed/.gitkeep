@@ -1,0 +1,27 @@
+# Processed Ginger Dataset
+
+This directory will contain the preprocessed dataset organized for training.
+
+Structure matches config.py PROCESSED_DATASET_PATH configuration:
+```
+ginger_processed/
+├── train/                  # 70% training data
+│   ├── healthy/
+│   ├── bacterial_wilt/
+│   ├── rhizome_rot/
+│   ├── leaf_spot/
+│   ├── soft_rot/
+│   ├── yellow_disease/
+│   └── root_knot_nematode/
+├── validation/             # 15% validation data
+│   └── [same subdirectories]
+└── test/                   # 15% test data
+    └── [same subdirectories]
+```
+
+Generated automatically by data preprocessing pipeline:
+```python
+PROCESSED_DATASET_PATH = PROCESSED_DATA_DIR / "ginger_processed"
+```
+
+Keep this file to maintain directory structure in Git.

@@ -1,0 +1,32 @@
+# Leaf Spot Disease Images
+
+Place images of ginger plants affected by leaf spot disease in this directory.
+
+## 🍃 Leaf Spot Symptoms to Capture
+
+### **Key Symptoms**
+- Circular or irregular spots on leaves
+- Brown to black lesions with yellow halos
+- Holes in leaves where spots have dropped out
+- Progressive spread across plant
+- Reduced photosynthetic area
+
+### **Spot Characteristics**
+- **Size**: Small (2-5mm) to large (10-20mm) spots
+- **Color**: Brown, black, or tan centers
+- **Pattern**: Scattered or clustered spots
+- **Progression**: Early to advanced stages
+
+### **Naming Example**
+```
+leaf_spot_001_20240115_early_spots.jpg
+leaf_spot_002_20240115_advanced_lesions.jpg
+leaf_spot_003_20240116_multiple_leaves.jpg
+```
+
+### **Target Count**: 1,500+ images
+
+**Disease Info**: Various fungal pathogens causing leaf lesions
+**Path**: `ml-training/data/raw/ginger_dataset/leaf_spot/`
+
+Keep this file (.gitkeep) to maintain the directory structure in Git.

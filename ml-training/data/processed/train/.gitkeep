@@ -1,0 +1,15 @@
+# Training Dataset
+
+This directory contains 70% of the preprocessed dataset for model training.
+
+Images are organized by disease class in subdirectories:
+- healthy/
+- bacterial_wilt/
+- rhizome_rot/
+- leaf_spot/
+- soft_rot/
+- yellow_disease/
+- root_knot_nematode/
+
+Generated automatically by data preprocessing pipeline.
+Keep this file to maintain directory structure in Git.

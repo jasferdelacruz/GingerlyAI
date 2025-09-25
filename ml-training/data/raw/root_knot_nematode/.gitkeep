@@ -1,0 +1,31 @@
+# Root Knot Nematode Damage Images
+
+Place images of ginger plants affected by root knot nematodes in this directory.
+
+## 🪱 Root Knot Nematode Symptoms to Capture
+
+### **Key Symptoms**
+- Galls (knots) on roots and rhizomes
+- Stunted plant growth
+- Yellowing due to nutrient deficiency
+- Wilting during stress
+- Deformed root system
+
+### **Damage Types**
+- **Root galls**: Swollen, knotted roots
+- **Above-ground**: Stunting and yellowing
+- **Rhizome damage**: Deformed underground parts
+- **Secondary infections**: Fungal/bacterial entry points
+
+### **Naming Example**
+```
+root_knot_nematode_001_20240115_root_galls.jpg
+root_knot_nematode_002_20240115_stunted_plant.jpg
+root_knot_nematode_003_20240116_rhizome_damage.jpg
+```
+
+### **Target Count**: 1,000+ images
+
+**Disease Info**: Parasitic nematodes causing root damage
+
+Keep this file (.gitkeep) to maintain the directory structure in Git.

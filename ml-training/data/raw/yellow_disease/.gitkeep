@@ -1,0 +1,31 @@
+# Yellow Disease Images
+
+Place images of ginger plants affected by yellow disease in this directory.
+
+## 🟡 Yellow Disease Symptoms to Capture
+
+### **Key Symptoms**
+- Bright yellow streaking on leaves
+- Stunted plant growth
+- Reduced leaf size
+- Mosaic patterns on leaves
+- Abnormal plant architecture
+
+### **Viral Patterns**
+- **Streaks**: Yellow lines along leaf veins
+- **Mosaics**: Irregular yellow and green patterns
+- **Mottling**: Scattered yellow patches
+- **Distortion**: Leaf curl and deformation
+
+### **Naming Example**
+```
+yellow_disease_001_20240115_yellow_streaks.jpg
+yellow_disease_002_20240115_mosaic_pattern.jpg
+yellow_disease_003_20240116_stunted_growth.jpg
+```
+
+### **Target Count**: 800+ images
+
+**Disease Info**: Viral infection transmitted by insect vectors
+
+Keep this file (.gitkeep) to maintain the directory structure in Git.

@@ -1,0 +1,16 @@
+# Test Dataset
+
+This directory contains 15% of the preprocessed dataset for final model evaluation.
+
+Images are organized by disease class in subdirectories:
+- healthy/
+- bacterial_wilt/
+- rhizome_rot/
+- leaf_spot/
+- soft_rot/
+- yellow_disease/
+- root_knot_nematode/
+
+Generated automatically by data preprocessing pipeline.
+Used only for final model evaluation - never during training.
+Keep this file to maintain directory structure in Git.

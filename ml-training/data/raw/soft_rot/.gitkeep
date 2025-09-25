@@ -1,0 +1,31 @@
+# Soft Rot Disease Images
+
+Place images of ginger plants affected by soft rot disease in this directory.
+
+## 💧 Soft Rot Symptoms to Capture
+
+### **Key Symptoms**
+- Soft, mushy texture of infected tissues
+- Water-soaked appearance
+- Foul odor from rotting tissue
+- Rapid spread of infection
+- Discolored, slimy plant parts
+
+### **Affected Areas**
+- **Stems**: Soft, collapsing stems
+- **Leaves**: Water-soaked leaf bases
+- **Rhizomes**: Mushy underground parts
+- **Whole plant**: Advanced infection stages
+
+### **Naming Example**
+```
+soft_rot_001_20240115_stem_collapse.jpg
+soft_rot_002_20240115_water_soaked.jpg
+soft_rot_003_20240116_advanced_decay.jpg
+```
+
+### **Target Count**: 1,000+ images
+
+**Disease Info**: Bacterial/fungal infection causing tissue decay
+
+Keep this file (.gitkeep) to maintain the directory structure in Git.

@@ -1,0 +1,30 @@
+# Rhizome Rot Disease Images
+
+Place images of ginger plants affected by rhizome rot in this directory.
+
+## 🍄 Rhizome Rot Symptoms to Capture
+
+### **Key Symptoms**
+- Soft, dark rot of underground rhizomes
+- Foul smell from infected rhizomes
+- Stunted plant growth
+- Yellowing leaves due to root damage
+- Water-soaked lesions
+
+### **Image Types**
+- **Surface symptoms**: Above-ground plant appearance
+- **Cross-sections**: Cut rhizomes showing internal rot
+- **Progression**: Different stages of rot development
+
+### **Naming Example**
+```
+rhizome_rot_001_20240115_surface_symptoms.jpg
+rhizome_rot_002_20240115_cross_section.jpg
+rhizome_rot_003_20240116_advanced_rot.jpg
+```
+
+### **Target Count**: 1,200+ images
+
+**Disease Info**: Fungal infection affecting underground parts
+
+Keep this file (.gitkeep) to maintain the directory structure in Git.

@@ -1,0 +1,23 @@
+# Healthy Ginger Plant Images
+
+Place images of healthy ginger plants in this directory.
+
+## 📸 Image Guidelines for Healthy Plants
+
+### **What to Include**
+- Vibrant green leaves
+- Strong, upright stems  
+- No visible disease symptoms
+- Various growth stages
+- Different lighting conditions
+
+### **Naming Example**
+```
+healthy_001_20240115_mature_plant.jpg
+healthy_002_20240115_seedling.jpg
+healthy_003_20240116_vegetative.jpg
+```
+
+### **Target Count**: 2,000+ images
+
+Keep this file (.gitkeep) to maintain the directory structure in Git.

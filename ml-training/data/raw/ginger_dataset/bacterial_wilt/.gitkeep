@@ -1,0 +1,31 @@
+# Bacterial Wilt Disease Images
+
+Place images of ginger plants affected by bacterial wilt in this directory.
+
+## 🦠 Bacterial Wilt Symptoms to Capture
+
+### **Key Symptoms**
+- Yellowing and wilting of leaves
+- Brown discoloration of stems
+- Soft rot of rhizomes
+- Plant collapse and death
+- Bacterial ooze (if visible)
+
+### **Severity Levels**
+- **Early**: Slight yellowing, minimal wilting
+- **Moderate**: Noticeable yellowing, stem discoloration
+- **Severe**: Plant collapse, extensive rot
+
+### **Naming Example**
+```
+bacterial_wilt_001_20240115_early_stage.jpg
+bacterial_wilt_002_20240115_severe_collapse.jpg
+bacterial_wilt_003_20240116_rhizome_rot.jpg
+```
+
+### **Target Count**: 1,500+ images
+
+**Disease Info**: Caused by Ralstonia solanacearum bacteria
+**Path**: `ml-training/data/raw/ginger_dataset/bacterial_wilt/`
+
+Keep this file (.gitkeep) to maintain the directory structure in Git.

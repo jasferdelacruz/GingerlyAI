@@ -1,0 +1,22 @@
+# Ginger Dataset Root Directory
+
+This directory contains raw ginger disease images organized by disease class.
+
+Structure matches config.py DATASET_PATH configuration:
+```
+ginger_dataset/
+├── healthy/
+├── bacterial_wilt/
+├── rhizome_rot/
+├── leaf_spot/
+├── soft_rot/
+├── yellow_disease/
+└── root_knot_nematode/
+```
+
+Created to match:
+```python
+DATASET_PATH = RAW_DATA_DIR / "ginger_dataset"
+```
+
+Keep this file to maintain directory structure in Git.
