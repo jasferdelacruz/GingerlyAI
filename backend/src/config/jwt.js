@@ -20,7 +20,11 @@ const generateAccessToken = (payload) => {
  * Generate refresh token
  */
 const generateRefreshToken = (payload) => {
-  return jwt.sign(payload, JWT_REFRESH_SECRET, { 
+  return jwt.sign({
+    ...payload,
+    iat: Math.floor(Date.now() / 1000), // Add timestamp to make unique
+    jti: require('crypto').randomBytes(16).toString('hex') // Add unique ID
+  }, JWT_REFRESH_SECRET, { 
     expiresIn: JWT_REFRESH_EXPIRE,
     issuer: 'gingerlyai-backend'
   });

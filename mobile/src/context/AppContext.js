@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
 import { Network } from '@capacitor/network';
 import { syncService } from '../services/syncService';
+import { databaseService } from '../services/databaseService';
 import { useAuth } from './AuthContext';
 
 // Initial state
@@ -12,6 +13,7 @@ const initialState = {
   syncProgress: 0,
   error: null,
   notifications: [],
+  databaseInitialized: false,
 };
 
 // Reducer
@@ -82,6 +84,11 @@ const appReducer = (state, action) => {
         ...state,
         notifications: [],
       };
+    case 'SET_DATABASE_INITIALIZED':
+      return {
+        ...state,
+        databaseInitialized: action.payload,
+      };
     default:
       return state;
   }
@@ -94,6 +101,22 @@ const AppContext = createContext(undefined);
 export const AppProvider = ({ children }) => {
   const [state, dispatch] = useReducer(appReducer, initialState);
   const { isAuthenticated } = useAuth();
+
+  // Database initialization
+  useEffect(() => {
+    const initializeDatabase = async () => {
+      try {
+        await databaseService.initialize();
+        dispatch({ type: 'SET_DATABASE_INITIALIZED', payload: true });
+        console.log('✅ Database initialized in AppContext');
+      } catch (error) {
+        console.error('❌ Database initialization failed in AppContext:', error);
+        dispatch({ type: 'SET_ERROR', payload: 'Database initialization failed' });
+      }
+    };
+
+    initializeDatabase();
+  }, []);
 
   // Network status monitoring
   useEffect(() => {

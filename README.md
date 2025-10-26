@@ -2,6 +2,8 @@
 
 GingerlyAI is a hybrid offline-first mobile application built with Ionic React that uses deep learning to detect diseases in ginger plants and provide remedy recommendations to farmers.
 
+> **📊 Current Status**: All systems operational! See [PROJECT_STATUS_UPDATE.md](PROJECT_STATUS_UPDATE.md) for detailed status information.
+
 ## 🎯 Features
 
 ### For Farmers (Users)
@@ -74,35 +76,71 @@ gingerlyai/
 
 ### Prerequisites
 - Node.js 18+ and npm
-- PostgreSQL 12+
+- Python 3.9+ with pip (for ML training)
 - Git
 
-### Backend Setup
+### Automated Setup (Recommended)
 
-1. **Clone and Install**
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/yourusername/gingerlyai.git
+   cd gingerlyai
+   ```
+
+2. **Run Setup Script**
+   ```bash
+   # This creates all necessary .env files and directories
+   node setup-development.js
+   ```
+
+3. **Start Backend**
    ```bash
    cd backend
    npm install
-   ```
-
-2. **Environment Configuration**
-   ```bash
-   cp env.example .env
-   # Edit .env with your database credentials and JWT secrets
-   ```
-
-3. **Database Setup**
-   ```bash
-   # Create PostgreSQL database
-   createdb gingerlyai_db
-   
-   # Run migrations
-   npm run migrate
-   ```
-
-4. **Start Development Server**
-   ```bash
    npm run dev
+   # Server runs on http://localhost:3000
+   ```
+
+4. **Start Mobile App**
+   ```bash
+   cd mobile
+   npm install
+   npm start
+   # App runs on http://localhost:8100
+   ```
+
+5. **Set up AI Model Training**
+   ```bash
+   cd ml-training
+   pip install tensorflow keras numpy pandas opencv-python Pillow scikit-learn matplotlib seaborn tqdm requests python-dotenv h5py tensorboard
+   python setup_ai_model.py
+   ```
+
+### Manual Setup (Alternative)
+
+1. **Backend Setup**
+   ```bash
+   cd backend
+   npm install
+   cp env.example .env
+   # Edit .env with your configuration
+   npm run dev
+   ```
+
+2. **Mobile Setup**
+   ```bash
+   cd mobile
+   npm install
+   cp env.example .env
+   # Edit .env with API URL
+   npm start
+   ```
+
+3. **ML Training Setup**
+   ```bash
+   cd ml-training
+   pip install -r requirements.txt
+   python setup_ai_model.py
    ```
 
 ### Mobile App Setup

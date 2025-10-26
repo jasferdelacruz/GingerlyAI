@@ -1,0 +1,15 @@
+# Essential ML packages for GingerlyAI
+tensorflow==2.15.0
+keras==2.15.0
+numpy
+pandas
+opencv-python
+Pillow
+scikit-learn
+matplotlib
+seaborn
+tqdm
+requests
+python-dotenv
+h5py
+tensorboard

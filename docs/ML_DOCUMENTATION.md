@@ -32,6 +32,13 @@ The model classifies images into 7 categories:
 
 ## 📊 Dataset Specification
 
+### **Current Setup Status** ✅ READY
+- **Dataset Structure**: Configured with 7 disease classes
+- **Image Directories**: `ml-training/data/raw/ginger_dataset/`
+- **Preprocessing Pipeline**: Ready for data processing
+- **Sample Data**: Available for testing and development
+- **ML Environment**: TensorFlow 2.20.0 installed and configured
+
 ### **Data Collection Guidelines**
 
 #### **Image Quality Standards**

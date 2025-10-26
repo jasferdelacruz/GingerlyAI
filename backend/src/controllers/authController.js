@@ -134,10 +134,14 @@ const refresh = async (req, res, next) => {
     // Generate new tokens
     const tokens = generateTokens(user);
 
-    // Update refresh token
-    await storedToken.update({
+    // Revoke old token and create new one
+    await storedToken.update({ isRevoked: true });
+    
+    await RefreshToken.create({
+      userId: user.id,
       token: tokens.refreshToken,
-      expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000)
+      expiresAt: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
+      deviceInfo: storedToken.deviceInfo
     });
 
     res.json({

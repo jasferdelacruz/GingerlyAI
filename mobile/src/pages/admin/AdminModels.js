@@ -14,7 +14,7 @@ import {
   IonIcon,
   IonText,
 } from '@ionic/react';
-import { hardware, construct } from 'ionicons/icons';
+import { construct, server } from 'ionicons/icons';
 
 const AdminModels = () => {
   return (
@@ -26,7 +26,7 @@ const AdminModels = () => {
           </IonButtons>
           <IonTitle>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-              <IonIcon icon={hardware} />
+              <IonIcon icon={server} />
               Model Management
             </div>
           </IonTitle>
