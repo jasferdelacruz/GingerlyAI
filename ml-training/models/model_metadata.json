@@ -1,0 +1,309 @@
+{
+  "model_type": "hybrid",
+  "architecture": {
+    "base_model": "MobileNetV2",
+    "base_weights": "imagenet",
+    "include_top": false,
+    "freeze_base": true,
+    "custom_head": {
+      "dense_layers": [
+        {
+          "units": 128,
+          "activation": "relu",
+          "dropout": 0.3
+        },
+        {
+          "units": 64,
+          "activation": "relu",
+          "dropout": 0.3
+        }
+      ],
+      "output_units": 7,
+      "output_activation": "softmax"
+    }
+  },
+  "training_config": {
+    "img_height": 224,
+    "img_width": 224,
+    "channels": 3,
+    "batch_size": 32,
+    "validation_split": 0.2,
+    "test_split": 0.1,
+    "epochs": 50,
+    "learning_rate": 0.001,
+    "early_stopping_patience": 10,
+    "reduce_lr_patience": 5,
+    "reduce_lr_factor": 0.5,
+    "min_lr": 1e-07,
+    "rotation_range": 25,
+    "width_shift_range": 0.1,
+    "height_shift_range": 0.1,
+    "horizontal_flip": true,
+    "vertical_flip": false,
+    "zoom_range": 0.2,
+    "shear_range": 0.2,
+    "brightness_range": [
+      0.8,
+      1.2
+    ],
+    "fill_mode": "nearest",
+    "model_type": "cnn",
+    "cnn_architecture": {
+      "conv_layers": [
+        {
+          "filters": 32,
+          "kernel_size": [
+            5,
+            5
+          ],
+          "strides": 2,
+          "activation": "relu"
+        },
+        {
+          "filters": 32,
+          "kernel_size": [
+            3,
+            3
+          ],
+          "strides": 1,
+          "activation": "relu"
+        },
+        {
+          "filters": 128,
+          "kernel_size": [
+            3,
+            3
+          ],
+          "strides": 1,
+          "activation": "relu"
+        },
+        {
+          "filters": 64,
+          "kernel_size": [
+            5,
+            5
+          ],
+          "strides": 2,
+          "activation": "relu"
+        },
+        {
+          "filters": 32,
+          "kernel_size": [
+            3,
+            3
+          ],
+          "strides": 1,
+          "activation": "relu"
+        }
+      ],
+      "pooling_layers": [
+        {
+          "pool_size": [
+            3,
+            3
+          ],
+          "strides": 1
+        },
+        {
+          "pool_size": [
+            2,
+            2
+          ],
+          "strides": 1
+        },
+        {
+          "pool_size": [
+            2,
+            2
+          ],
+          "strides": 2
+        }
+      ],
+      "dense_layers": [
+        {
+          "units": 64,
+          "activation": "relu",
+          "dropout": 0.3
+        },
+        {
+          "units": 32,
+          "activation": "relu",
+          "dropout": 0.3
+        }
+      ],
+      "output_units": 7,
+      "output_activation": "softmax"
+    },
+    "hybrid_cnn": {
+      "base_model": "MobileNetV2",
+      "base_weights": "imagenet",
+      "include_top": false,
+      "freeze_base": true,
+      "custom_head": {
+        "dense_layers": [
+          {
+            "units": 128,
+            "activation": "relu",
+            "dropout": 0.3
+          },
+          {
+            "units": 64,
+            "activation": "relu",
+            "dropout": 0.3
+          }
+        ],
+        "output_units": 7,
+        "output_activation": "softmax"
+      }
+    },
+    "dropout_rate": 0.3,
+    "l2_regularization": 0.001,
+    "use_pretrained": false,
+    "freeze_base_layers": false,
+    "fine_tune_from_layer": null
+  },
+  "classes": [
+    "healthy",
+    "bacterial_wilt",
+    "rhizome_rot",
+    "leaf_spot",
+    "soft_rot",
+    "yellow_disease",
+    "root_knot_nematode"
+  ],
+  "num_classes": 7,
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "evaluation_results": {
+    "test_loss": 0.5063309073448181,
+    "test_accuracy": 0.9285714030265808,
+    "classification_report": {
+      "healthy": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 4.0
+      },
+      "bacterial_wilt": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "rhizome_rot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "leaf_spot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "soft_rot": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 4.0
+      },
+      "yellow_disease": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 4.0
+      },
+      "root_knot_nematode": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 4.0
+      },
+      "accuracy": 0.9285714285714286,
+      "macro avg": {
+        "precision": 0.9357142857142857,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9280045351473921,
+        "support": 28.0
+      },
+      "weighted avg": {
+        "precision": 0.9357142857142857,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9280045351473921,
+        "support": 28.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ]
+    ]
+  },
+  "training_date": "2025-10-28T14:51:24.025997",
+  "model_path": "C:\\Users\\Jasfer\\Desktop\\GingerlyAI\\ml-training\\models\\ginger_disease_model.h5",
+  "tensorboard_logs": "C:\\Users\\Jasfer\\Desktop\\GingerlyAI\\ml-training\\logs\\tensorboard"
+}

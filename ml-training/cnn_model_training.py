@@ -105,6 +105,9 @@ class CNNGingerDiseaseModel:
         inputs = keras.Input(shape=input_shape)
         x = base_model(inputs, training=False)
         
+        # Add GlobalAveragePooling2D to flatten the output
+        x = layers.GlobalAveragePooling2D()(x)
+        
         # Custom head
         custom_head = hybrid_config['custom_head']
         for dense_config in custom_head['dense_layers']:

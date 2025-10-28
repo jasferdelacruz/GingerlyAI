@@ -6,6 +6,16 @@ This directory contains the complete machine learning pipeline for training, eva
 
 The ML pipeline trains a deep learning model to classify ginger plant diseases from images. The trained model is then exported to TensorFlow.js format for offline inference in the mobile app.
 
+## ✅ **CURRENT STATUS: MODEL TRAINED SUCCESSFULLY**
+
+**Last Training**: October 28, 2025  
+**Model Type**: Hybrid CNN with MobileNetV2 (Transfer Learning)  
+**Test Accuracy**: **92.86%** 🎯  
+**Validation Accuracy**: **100.00%**  
+**Status**: ✅ **READY FOR DEPLOYMENT**
+
+📊 **See [TRAINING_RESULTS.md](TRAINING_RESULTS.md) for detailed training results**
+
 ## 🧬 Disease Classes
 
 The model can detect the following ginger diseases:
