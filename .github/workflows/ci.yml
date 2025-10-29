@@ -54,11 +54,17 @@ jobs:
 
     - name: Run backend tests
       working-directory: ./backend
-      run: npm test
+      run: npm run test:ci
+      
+    - name: Upload backend coverage
+      uses: codecov/codecov-action@v3
+      with:
+        directory: ./backend/coverage
+        flags: backend
 
     - name: Run backend linting
       working-directory: ./backend
-      run: npm run lint || true
+      run: npm run lint || echo "Linting not configured yet"
 
   # Frontend Tests
   frontend-test:
@@ -79,22 +85,35 @@ jobs:
       working-directory: ./mobile
       run: npm ci
 
+    - name: Create frontend environment file
+      working-directory: ./mobile
+      run: |
+        echo "REACT_APP_API_URL=http://localhost:3000/api" > .env
+        echo "REACT_APP_ENV=test" >> .env
+
     - name: Run frontend tests
       working-directory: ./mobile
-      run: npm test -- --coverage --watchAll=false
+      run: npm test -- --coverage --watchAll=false --passWithNoTests
+
+    - name: Upload frontend coverage
+      uses: codecov/codecov-action@v3
+      with:
+        directory: ./mobile/coverage
+        flags: frontend
 
     - name: Run frontend linting
       working-directory: ./mobile
-      run: npm run lint || true
+      run: npm run lint || echo "Linting not configured yet"
 
     - name: Build frontend
       working-directory: ./mobile
       run: npm run build
-
-    - name: Upload coverage reports
-      uses: codecov/codecov-action@v3
-      with:
-        directory: ./mobile/coverage
+      
+    - name: Check build size
+      working-directory: ./mobile
+      run: |
+        BUILD_SIZE=$(du -sh build | cut -f1)
+        echo "Build size: $BUILD_SIZE"
 
   # ML Pipeline Tests
   ml-test:

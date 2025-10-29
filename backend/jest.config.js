@@ -19,8 +19,8 @@ module.exports = {
     '!src/seeders/**'
   ],
 
-  // Coverage thresholds
-  coverageThresholds: {
+  // Coverage threshold (singular, not plural)
+  coverageThreshold: {
     global: {
       branches: 70,
       functions: 70,

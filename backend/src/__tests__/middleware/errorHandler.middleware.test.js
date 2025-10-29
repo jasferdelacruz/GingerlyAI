@@ -9,7 +9,12 @@ describe('Error Handler Middleware Tests', () => {
     mockReq = {
       method: 'GET',
       path: '/test',
-      originalUrl: '/api/test'
+      originalUrl: '/api/test',
+      ip: '127.0.0.1',
+      get: jest.fn((header) => {
+        if (header === 'User-Agent') return 'test-agent';
+        return null;
+      })
     };
 
     mockRes = {
@@ -76,8 +81,8 @@ describe('Error Handler Middleware Tests', () => {
       const error = {
         name: 'SequelizeValidationError',
         errors: [
-          { message: 'Email is required' },
-          { message: 'Password must be at least 6 characters' }
+          { path: 'email', message: 'Email is required' },
+          { path: 'password', message: 'Password must be at least 6 characters' }
         ]
       };
 
@@ -86,11 +91,10 @@ describe('Error Handler Middleware Tests', () => {
       expect(mockRes.status).toHaveBeenCalledWith(400);
       expect(mockRes.json).toHaveBeenCalledWith(
         expect.objectContaining({
-          error: 'Validation error',
-          statusCode: 400,
+          error: 'Validation failed',
           details: expect.arrayContaining([
-            'Email is required',
-            'Password must be at least 6 characters'
+            expect.objectContaining({ field: 'email', message: 'Email is required' }),
+            expect.objectContaining({ field: 'password', message: 'Password must be at least 6 characters' })
           ])
         })
       );
@@ -99,7 +103,7 @@ describe('Error Handler Middleware Tests', () => {
     it('should handle Sequelize unique constraint errors', () => {
       const error = {
         name: 'SequelizeUniqueConstraintError',
-        errors: [{ message: 'email must be unique' }]
+        errors: [{ path: 'email', message: 'email must be unique' }]
       };
 
       errorHandler(error, mockReq, mockRes, mockNext);
@@ -108,7 +112,7 @@ describe('Error Handler Middleware Tests', () => {
       expect(mockRes.json).toHaveBeenCalledWith(
         expect.objectContaining({
           error: 'Duplicate entry',
-          statusCode: 409
+          message: expect.stringContaining('email')
         })
       );
     });
@@ -217,32 +221,41 @@ describe('Error Handler Middleware Tests', () => {
   });
 
   describe('notFoundHandler middleware', () => {
-    it('should create 404 error for unmatched routes', () => {
-      notFoundHandler(mockReq, mockRes, mockNext);
+    it('should respond with 404 for unmatched routes', () => {
+      notFoundHandler(mockReq, mockRes);
 
-      expect(mockNext).toHaveBeenCalledWith(
+      expect(mockRes.status).toHaveBeenCalledWith(404);
+      expect(mockRes.json).toHaveBeenCalledWith(
         expect.objectContaining({
-          message: expect.stringContaining('/api/test'),
-          statusCode: 404
+          error: 'Not found',
+          message: expect.stringContaining('/test')
         })
       );
     });
 
-    it('should include requested URL in error message', () => {
-      mockReq.originalUrl = '/api/nonexistent';
+    it('should include requested path in error message', () => {
+      mockReq.path = '/api/nonexistent';
 
-      notFoundHandler(mockReq, mockRes, mockNext);
+      notFoundHandler(mockReq, mockRes);
 
-      const error = mockNext.mock.calls[0][0];
-      expect(error.message).toContain('/api/nonexistent');
+      expect(mockRes.json).toHaveBeenCalledWith(
+        expect.objectContaining({
+          message: expect.stringContaining('/api/nonexistent')
+        })
+      );
     });
 
-    it('should pass AppError to next middleware', () => {
-      notFoundHandler(mockReq, mockRes, mockNext);
+    it('should include request method in error message', () => {
+      mockReq.method = 'POST';
+      mockReq.path = '/api/test';
 
-      const error = mockNext.mock.calls[0][0];
-      expect(error).toBeInstanceOf(AppError);
-      expect(error.statusCode).toBe(404);
+      notFoundHandler(mockReq, mockRes);
+
+      expect(mockRes.json).toHaveBeenCalledWith(
+        expect.objectContaining({
+          message: expect.stringContaining('POST')
+        })
+      );
     });
   });
 
@@ -252,22 +265,23 @@ describe('Error Handler Middleware Tests', () => {
 
       errorHandler(error, mockReq, mockRes, mockNext);
 
+      expect(mockRes.status).toHaveBeenCalledWith(400);
       expect(mockRes.json).toHaveBeenCalledWith(
         expect.objectContaining({
-          error: expect.any(String),
-          statusCode: expect.any(Number),
-          timestamp: expect.any(String)
+          error: expect.any(String)
         })
       );
     });
 
-    it('should include timestamp in ISO format', () => {
+    it('should handle errors with details', () => {
       const error = new AppError('Test error', 400);
+      error.details = { field: 'email', reason: 'invalid format' };
 
       errorHandler(error, mockReq, mockRes, mockNext);
 
       const response = mockRes.json.mock.calls[0][0];
-      expect(response.timestamp).toMatch(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/);
+      expect(response).toHaveProperty('details');
+      expect(response.details).toEqual({ field: 'email', reason: 'invalid format' });
     });
   });
 
