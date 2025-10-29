@@ -1,0 +1,272 @@
+{
+  "bacterial_wilt": {
+    "disease_name": {
+      "en": "Bacterial Wilt",
+      "tl": "Bacterial Wilt (Pagkalanta dahil sa Bakterya)"
+    },
+    "disease_class": "bacterial_wilt",
+    "description": {
+      "en": "Bacterial wilt is caused by Ralstonia solanacearum, which blocks the vascular system of the plant, causing wilting and yellowing of leaves.",
+      "tl": "Ang bacterial wilt ay dulot ng Ralstonia solanacearum, na humaharang sa vascular system ng halaman, na nagiging sanhi ng pagkalanta at paninilaw ng mga dahon."
+    },
+    "symptoms": {
+      "en": [
+        "Sudden wilting of leaves",
+        "Yellowing and drooping of foliage",
+        "Brown discoloration of vascular tissue",
+        "Plant death within 7-10 days",
+        "Bacterial ooze from cut stems"
+      ],
+      "tl": [
+        "Biglaang paglanta ng mga dahon",
+        "Paninilaw at paglaylay ng mga dahon",
+        "Pagka-kayumanggi ng vascular tissue",
+        "Pagkamatay ng halaman sa loob ng 7-10 araw",
+        "Bacterial ooze mula sa mga pinutol na tangkay"
+      ]
+    },
+    "prevention_measures": {
+      "en": [
+        "Use disease-free seed rhizomes",
+        "Improve drainage to prevent waterlogging",
+        "Avoid injury to plants during cultivation",
+        "Remove and destroy infected plants immediately",
+        "Sterilize tools between plants",
+        "Maintain proper spacing for air circulation"
+      ],
+      "tl": [
+        "Gumamit ng walang sakit na binhing ugat (rhizomes)",
+        "Pagbutihin ang drainage para maiwasan ang pagbaha",
+        "Iwasan ang pagka-sugat ng halaman habang nagsasaka",
+        "Alisin at sunugin agad ang may sakit na halaman",
+        "I-sterilize ang mga kasangkapan pagkatapos gamitin",
+        "Panatilihin ang tamang espasyo para sa daloy ng hangin"
+      ]
+    },
+    "organic_remedies": [
+      {
+        "name": {
+          "en": "Crop Rotation",
+          "tl": "Pag-rotate ng Pananim (Crop Rotation)"
+        },
+        "description": {
+          "en": "Rotate ginger with non-host crops like cereals or legumes for 3-4 years to break the disease cycle.",
+          "tl": "Mag-rotate ng luya kasama ang ibang pananim tulad ng cereal o legumes sa loob ng 3-4 taon upang maputol ang ikot ng sakit."
+        },
+        "application": {
+          "en": "Plant non-susceptible crops in infected areas",
+          "tl": "Magtanim ng hindi madaling tamaan ng sakit sa mga apektadong lugar"
+        },
+        "effectiveness": {
+          "en": "High for prevention",
+          "tl": "Mataas para sa pag-iwas"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "Before planting season",
+          "tl": "Bago ang panahon ng pagtatanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Neem Cake Treatment",
+          "tl": "Neem Cake Treatment"
+        },
+        "description": {
+          "en": "Apply neem cake to soil to suppress bacterial populations and improve soil health.",
+          "tl": "Maglagay ng neem cake sa lupa para sugpuin ang bakterya at pagbutihin ang kalusugan ng lupa."
+        },
+        "application": {
+          "en": "Mix 200-250 kg neem cake per hectare into soil before planting",
+          "tl": "Haluin ang 200-250 kg neem cake bawat ektarya sa lupa bago magtanim"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "2-3 weeks before planting",
+          "tl": "2-3 linggo bago magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Trichoderma Application",
+          "tl": "Paggamit ng Trichoderma"
+        },
+        "description": {
+          "en": "Bio-control agent that competes with pathogenic bacteria and enhances plant immunity.",
+          "tl": "Bio-control agent na nakikipag-compete sa makasama ng bakterya at nagpapalakas ng immunity ng halaman."
+        },
+        "application": {
+          "en": "Mix 5 kg Trichoderma with 100 kg FYM and apply per hectare",
+          "tl": "Haluin ang 5 kg Trichoderma sa 100 kg FYM at ilagay bawat ektarya"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "timing": {
+          "en": "At planting and monthly intervals",
+          "tl": "Sa pagtatanim at bawat buwan"
+        }
+      },
+      {
+        "name": {
+          "en": "Resistant Varieties",
+          "tl": "Matitigas na Uri ng Luya"
+        },
+        "description": {
+          "en": "Plant disease-resistant ginger varieties if available in your region.",
+          "tl": "Magtanim ng uri ng luya na lumalaban sa sakit kung mayroon sa inyong lugar."
+        },
+        "application": {
+          "en": "Source certified disease-free rhizomes from reputable suppliers",
+          "tl": "Kumuha ng sertipikadong walang sakit na ugat mula sa maaasahang supplier"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "At planting",
+          "tl": "Sa pagtatanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Soil Solarization",
+          "tl": "Paggamit ng Araw sa Lupa (Soil Solarization)"
+        },
+        "description": {
+          "en": "Use solar heat to kill soil-borne bacteria before planting.",
+          "tl": "Gamitin ang init ng araw para patayin ang bakterya sa lupa bago magtanim."
+        },
+        "application": {
+          "en": "Cover moist soil with transparent plastic for 4-6 weeks in hot season",
+          "tl": "Takpan ang basang lupa ng malinaw na plastic ng 4-6 na linggo sa tag-init"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "1-2 months before planting",
+          "tl": "1-2 buwan bago magtanim"
+        }
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": {
+          "en": "Streptocycline Treatment",
+          "tl": "Streptocycline Treatment"
+        },
+        "description": {
+          "en": "Antibiotic spray effective against bacterial wilt.",
+          "tl": "Antibiotic spray na epektibo laban sa bacterial wilt."
+        },
+        "application": {
+          "en": "Spray 500 ppm (0.5 g/L) streptocycline solution. Drench soil around infected plants.",
+          "tl": "Mag-spray ng 500 ppm (0.5 g/L) streptocycline solution. Buhusan ang lupa sa paligid ng may sakit na halaman."
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "At first sign of infection, repeat every 10-15 days",
+          "tl": "Sa unang palatandaan ng sakit, ulitin bawat 10-15 araw"
+        },
+        "safety_precautions": {
+          "en": "Wear protective gear. Observe withdrawal period before harvest.",
+          "tl": "Magsuot ng protective gear. Sundin ang withdrawal period bago mag-ani."
+        }
+      },
+      {
+        "name": {
+          "en": "Copper Oxychloride",
+          "tl": "Copper Oxychloride"
+        },
+        "description": {
+          "en": "Broad-spectrum bactericide for preventive and curative control.",
+          "tl": "Broad-spectrum bactericide para sa pag-iwas at paggamot."
+        },
+        "application": {
+          "en": "Spray 0.3% copper oxychloride (3 g/L) solution on foliage and soil drench",
+          "tl": "Mag-spray ng 0.3% copper oxychloride (3 g/L) solution sa dahon at buhusan ang lupa"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Preventive sprays every 15-20 days during monsoon",
+          "tl": "Pag-spray para sa pag-iwas bawat 15-20 araw tuwing tag-ulan"
+        },
+        "safety_precautions": {
+          "en": "Avoid spraying during hot weather. Maintain 15-day pre-harvest interval.",
+          "tl": "Iwasan ang pag-spray sa mainit na panahon. Sundin ang 15-araw na interval bago mag-ani."
+        }
+      },
+      {
+        "name": {
+          "en": "Bleaching Powder Soil Treatment",
+          "tl": "Bleaching Powder para sa Lupa"
+        },
+        "description": {
+          "en": "Disinfect soil to reduce bacterial load in heavily infected areas.",
+          "tl": "I-disinfect ang lupa para bawasan ang bakterya sa mga lugar na lubhang apektado."
+        },
+        "application": {
+          "en": "Apply 250 kg bleaching powder per hectare and incorporate into soil",
+          "tl": "Maglagay ng 250 kg bleaching powder bawat ektarya at haluin sa lupa"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "2-3 weeks before planting",
+          "tl": "2-3 linggo bago magtanim"
+        },
+        "safety_precautions": {
+          "en": "Avoid direct contact with skin. Water soil after application.",
+          "tl": "Iwasan ang direktang contact sa balat. Diliguan ang lupa pagkatapos gamitin."
+        }
+      }
+    ]
+  }
+}
+

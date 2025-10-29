@@ -1,0 +1,35 @@
+.language-switcher-button {
+  --border-radius: 20px;
+  --padding-start: 12px;
+  --padding-end: 12px;
+  margin: 0 8px;
+  font-size: 14px;
+}
+
+.language-switcher-button ion-icon {
+  margin-right: 4px;
+}
+
+.language-switcher-select {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Action sheet styling */
+ion-action-sheet.language-selector {
+  --button-color: var(--ion-color-primary);
+}
+
+ion-action-sheet.language-selector .action-sheet-selected {
+  font-weight: bold;
+  color: var(--ion-color-primary);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .language-switcher-button {
+    --background: var(--ion-color-dark);
+    --color: var(--ion-color-light);
+  }
+}
+

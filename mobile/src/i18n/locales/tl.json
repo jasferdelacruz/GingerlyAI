@@ -1,0 +1,288 @@
+{
+  "app": {
+    "name": "GingerlyAI",
+    "tagline": "AI-Powered na Pagkilala sa Sakit ng Luya"
+  },
+  
+  "common": {
+    "ok": "Sige",
+    "cancel": "Kanselahin",
+    "close": "Isara",
+    "save": "I-save",
+    "delete": "Tanggalin",
+    "edit": "I-edit",
+    "back": "Bumalik",
+    "next": "Susunod",
+    "done": "Tapos na",
+    "loading": "Naglo-load...",
+    "error": "May Mali",
+    "success": "Matagumpay",
+    "retry": "Subukan Muli",
+    "yes": "Oo",
+    "no": "Hindi",
+    "search": "Maghanap",
+    "filter": "I-filter",
+    "sort": "Ayusin",
+    "refresh": "I-refresh",
+    "submit": "Isumite",
+    "confirm": "Kumpirmahin",
+    "view": "Tingnan",
+    "download": "I-download",
+    "share": "Ibahagi"
+  },
+
+  "navigation": {
+    "home": "Home",
+    "scan": "I-scan",
+    "history": "Kasaysayan",
+    "remedies": "Mga Gamot",
+    "profile": "Profile",
+    "settings": "Settings",
+    "about": "Tungkol",
+    "help": "Tulong"
+  },
+
+  "auth": {
+    "login": "Mag-login",
+    "logout": "Mag-logout",
+    "register": "Magrehistro",
+    "forgotPassword": "Nakalimutan ang Password?",
+    "resetPassword": "I-reset ang Password",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Kumpirmahin ang Password",
+    "name": "Buong Pangalan",
+    "phone": "Numero ng Telepono",
+    "location": "Lokasyon",
+    "farmSize": "Laki ng Bukid (ektarya)",
+    "loginButton": "Mag-sign In",
+    "registerButton": "Gumawa ng Account",
+    "alreadyHaveAccount": "Mayroon nang account?",
+    "dontHaveAccount": "Walang account?",
+    "emailRequired": "Kailangan ang email",
+    "passwordRequired": "Kailangan ang password",
+    "invalidEmail": "Hindi wastong email",
+    "passwordTooShort": "Dapat 8 characters o higit pa ang password",
+    "passwordMismatch": "Hindi magkatugma ang mga password",
+    "loginSuccess": "Matagumpay na nag-login!",
+    "registerSuccess": "Matagumpay ang pagpaparehistro!",
+    "loginError": "Nabigo ang pag-login. Pakisuri ang inyong credentials.",
+    "registerError": "Nabigo ang pagpaparehistro. Subukan muli."
+  },
+
+  "home": {
+    "welcome": "Maligayang pagdating",
+    "quickScan": "Mabilis na Pag-scan",
+    "recentScans": "Kamakailang Pag-scan",
+    "statistics": "Inyong Estadistika",
+    "totalScans": "Kabuuang Pag-scan",
+    "diseasesDetected": "Nakitang Sakit",
+    "healthyPlants": "Malusog na Halaman",
+    "tips": "Payo sa Pagsasaka",
+    "weatherAlert": "Babala sa Panahon",
+    "noRecentScans": "Walang kamakailang pag-scan. Magsimula sa pag-scan ng inyong luya!"
+  },
+
+  "scan": {
+    "title": "I-scan ang Luya",
+    "instruction": "Kumuha ng malinaw na larawan ng apektadong luya",
+    "takePhoto": "Kumuha ng Larawan",
+    "chooseFromGallery": "Pumili sa Gallery",
+    "analyzing": "Sinusuri ang larawan...",
+    "processingOffline": "Pinoproseso offline...",
+    "result": "Resulta ng Pag-scan",
+    "confidence": "Katiyakan",
+    "disease": "Sakit",
+    "severity": "Kalubhaan",
+    "viewRemedies": "Tingnan ang mga Gamot",
+    "retake": "Kumuha Ulit",
+    "saveResult": "I-save ang Resulta",
+    "shareResult": "Ibahagi ang Resulta",
+    "noImageSelected": "Walang napiling larawan",
+    "cameraPermission": "Kailangan ang pahintulot sa camera",
+    "uploadError": "Nabigo ang pag-upload ng larawan",
+    "analysisError": "Nabigo ang pagsusuri. Subukan muli.",
+    "offlineMode": "Offline Mode na Aktibo"
+  },
+
+  "diseases": {
+    "bacterial_wilt": "Bacterial Wilt (Pagkalanta dahil sa Bakterya)",
+    "rhizome_rot": "Rhizome Rot (Pagkabulok ng Ugat)",
+    "leaf_spot": "Leaf Spot (Batik sa Dahon)",
+    "soft_rot": "Soft Rot (Malambot na Bulok)",
+    "yellow_disease": "Yellow Disease (Sakit na Paninilaw)",
+    "root_knot_nematode": "Root Knot Nematode (Bukol sa Ugat)",
+    "healthy": "Malusog na Halaman",
+    "unknown": "Hindi Kilalang Sakit"
+  },
+
+  "severity": {
+    "low": "Mababa",
+    "medium": "Katamtaman",
+    "high": "Mataas",
+    "critical": "Kritikal"
+  },
+
+  "remedies": {
+    "title": "Mga Gamot at Lunas",
+    "searchPlaceholder": "Maghanap ng gamot...",
+    "filterByDisease": "I-filter ayon sa Sakit",
+    "filterByType": "I-filter ayon sa Uri",
+    "organic": "Organiko",
+    "chemical": "Kemikal",
+    "all": "Lahat",
+    "description": "Paglalarawan",
+    "symptoms": "Mga Sintomas",
+    "treatments": "Mga Gamot",
+    "prevention": "Pag-iwas",
+    "application": "Paraan ng Paggamit",
+    "dosage": "Dosis",
+    "timing": "Kailan Gagamitin",
+    "effectiveness": "Epektibo",
+    "cost": "Gastos",
+    "safety": "Mga Pag-iingat sa Kaligtasan",
+    "noRemediesFound": "Walang nakitang gamot",
+    "viewDetails": "Tingnan ang Detalye",
+    "organicRemedies": "Organikong Gamot",
+    "chemicalRemedies": "Kemikal na Gamot",
+    "howToApply": "Paano Gagamitin",
+    "whenToApply": "Kailan Gagamitin",
+    "precautions": "Mga Pag-iingat"
+  },
+
+  "history": {
+    "title": "Kasaysayan ng Pag-scan",
+    "today": "Ngayong Araw",
+    "yesterday": "Kahapon",
+    "thisWeek": "Linggong Ito",
+    "thisMonth": "Buwang Ito",
+    "older": "Mas Luma",
+    "noHistory": "Walang kasaysayan ng pag-scan",
+    "deleteConfirm": "Sigurado ka bang gusto mong tanggalin ang scan na ito?",
+    "deleted": "Tinanggal ang scan",
+    "exportHistory": "I-export ang Kasaysayan",
+    "clearHistory": "Burahin Lahat",
+    "clearConfirm": "Sigurado ka bang gusto mong burahin ang lahat ng kasaysayan?",
+    "filter": "I-filter ayon sa Petsa",
+    "sortBy": "Ayusin ayon sa",
+    "date": "Petsa",
+    "diseaseType": "Uri ng Sakit"
+  },
+
+  "profile": {
+    "title": "Profile",
+    "editProfile": "I-edit ang Profile",
+    "changePassword": "Baguhin ang Password",
+    "personalInfo": "Personal na Impormasyon",
+    "farmInfo": "Impormasyon ng Bukid",
+    "accountSettings": "Settings ng Account",
+    "language": "Wika",
+    "notifications": "Mga Abiso",
+    "offline": "Offline Mode",
+    "dataSync": "Pag-sync ng Data",
+    "syncNow": "I-sync Ngayon",
+    "lastSync": "Huling Pag-sync",
+    "never": "Hindi Pa",
+    "updateSuccess": "Matagumpay na na-update ang profile",
+    "updateError": "Nabigo ang pag-update ng profile",
+    "currentPassword": "Kasalukuyang Password",
+    "newPassword": "Bagong Password",
+    "passwordChanged": "Matagumpay na nabago ang password",
+    "logoutConfirm": "Sigurado ka bang gusto mong mag-logout?"
+  },
+
+  "settings": {
+    "title": "Mga Setting",
+    "general": "Pangkalahatan",
+    "language": "Wika",
+    "selectLanguage": "Pumili ng Wika",
+    "theme": "Tema",
+    "lightMode": "Maliwanag na Mode",
+    "darkMode": "Madilim na Mode",
+    "autoMode": "Awtomatiko",
+    "notifications": "Mga Abiso",
+    "pushNotifications": "Push Notifications",
+    "emailNotifications": "Email Notifications",
+    "weatherAlerts": "Babala sa Panahon",
+    "diseaseAlerts": "Babala sa Sakit",
+    "storage": "Storage",
+    "clearCache": "Burahin ang Cache",
+    "cacheCleared": "Matagumpay na nabura ang cache",
+    "downloadData": "I-download ang Offline Data",
+    "dataDownloaded": "Na-download ang offline data",
+    "about": "Tungkol",
+    "version": "Bersyon",
+    "termsOfService": "Mga Tuntunin ng Serbisyo",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "contactSupport": "Makipag-ugnayan sa Support"
+  },
+
+  "offline": {
+    "title": "Offline Mode",
+    "enabled": "Naka-enable ang offline mode",
+    "disabled": "Naka-disable ang offline mode",
+    "dataAvailable": "May offline data",
+    "dataNotAvailable": "Walang offline data",
+    "downloadPrompt": "I-download ang data para sa offline?",
+    "downloading": "Dina-download ang offline data...",
+    "downloadComplete": "Handa na ang offline data",
+    "downloadError": "Nabigo ang pag-download ng offline data",
+    "syncPending": "Mag-sync ang mga pagbabago kapag online",
+    "noConnection": "Walang internet connection",
+    "useOffline": "Gumagamit ng offline mode"
+  },
+
+  "errors": {
+    "networkError": "May problema sa network. Pakisuri ang inyong koneksyon.",
+    "serverError": "May problema sa server. Subukan muli mamaya.",
+    "unauthorized": "Nag-expire ang session. Mag-login muli.",
+    "notFound": "Hindi nahanap.",
+    "validationError": "Pakisuri ang inyong input.",
+    "unknownError": "May naganap na error. Subukan muli.",
+    "cameraError": "Error sa camera access",
+    "locationError": "Error sa location access",
+    "storageError": "Error sa storage access"
+  },
+
+  "success": {
+    "saved": "Matagumpay na na-save",
+    "updated": "Matagumpay na na-update",
+    "deleted": "Matagumpay na tinanggal",
+    "uploaded": "Matagumpay na na-upload",
+    "shared": "Matagumpay na naibahagi",
+    "synced": "Matagumpay na nag-sync"
+  },
+
+  "tips": {
+    "title": "Payo sa Pagsasaka",
+    "plantingTips": "Payo sa Pagtatanim",
+    "careTips": "Payo sa Pag-aalaga",
+    "harvestTips": "Payo sa Pag-ani",
+    "storageTips": "Payo sa Pag-imbak",
+    "seasonal": "Payo ayon sa Panahon"
+  },
+
+  "weather": {
+    "title": "Taya ng Panahon",
+    "temperature": "Temperatura",
+    "humidity": "Kahalumigmigan",
+    "rainfall": "Ulan",
+    "windSpeed": "Bilis ng Hangin",
+    "alert": "Babala sa Panahon",
+    "favorableConditions": "Mabuting kondisyon para sa paglaki",
+    "unfavorableConditions": "Hindi magandang kondisyon - bantayan ang mga halaman"
+  },
+
+  "export": {
+    "title": "I-export ang Data",
+    "selectFormat": "Pumili ng Format",
+    "pdf": "PDF Report",
+    "csv": "CSV Spreadsheet",
+    "excel": "Excel File",
+    "image": "Larawan",
+    "exporting": "Nag-e-export...",
+    "exportSuccess": "Matagumpay ang pag-export",
+    "exportError": "Nabigo ang pag-export"
+  }
+}
+

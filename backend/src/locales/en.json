@@ -1,0 +1,55 @@
+{
+  "errors": {
+    "validation": "Validation failed",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access forbidden",
+    "notFound": "Resource not found",
+    "serverError": "Internal server error",
+    "networkError": "Network error occurred",
+    "invalidCredentials": "Invalid email or password",
+    "emailExists": "Email already registered",
+    "tokenExpired": "Token has expired",
+    "invalidToken": "Invalid token"
+  },
+  
+  "success": {
+    "loginSuccess": "Login successful",
+    "registerSuccess": "Registration successful",
+    "updateSuccess": "Updated successfully",
+    "deleteSuccess": "Deleted successfully",
+    "uploadSuccess": "Upload successful",
+    "predictionSuccess": "Analysis completed",
+    "passwordChanged": "Password changed successfully",
+    "dataSynced": "Data synchronized"
+  },
+
+  "validation": {
+    "required": "{{field}} is required",
+    "invalidEmail": "Invalid email address",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "invalidFormat": "Invalid {{field}} format"
+  },
+
+  "diseases": {
+    "bacterial_wilt": "Bacterial Wilt",
+    "rhizome_rot": "Rhizome Rot",
+    "leaf_spot": "Leaf Spot",
+    "soft_rot": "Soft Rot",
+    "yellow_disease": "Yellow Disease",
+    "root_knot_nematode": "Root Knot Nematode",
+    "healthy": "Healthy Plant"
+  },
+
+  "severity": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "critical": "Critical"
+  },
+
+  "remedyTypes": {
+    "organic": "Organic",
+    "chemical": "Chemical"
+  }
+}
+

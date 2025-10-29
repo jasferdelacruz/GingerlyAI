@@ -1,0 +1,55 @@
+{
+  "errors": {
+    "validation": "Nabigo ang validation",
+    "unauthorized": "Walang pahintulot",
+    "forbidden": "Ipinagbabawal ang access",
+    "notFound": "Hindi nahanap",
+    "serverError": "May problema sa server",
+    "networkError": "May problema sa network",
+    "invalidCredentials": "Hindi wastong email o password",
+    "emailExists": "Nakarehistro na ang email",
+    "tokenExpired": "Nag-expire na ang token",
+    "invalidToken": "Hindi wastong token"
+  },
+  
+  "success": {
+    "loginSuccess": "Matagumpay ang pag-login",
+    "registerSuccess": "Matagumpay ang pagpaparehistro",
+    "updateSuccess": "Matagumpay na na-update",
+    "deleteSuccess": "Matagumpay na tinanggal",
+    "uploadSuccess": "Matagumpay ang pag-upload",
+    "predictionSuccess": "Tapos na ang pagsusuri",
+    "passwordChanged": "Matagumpay na nabago ang password",
+    "dataSynced": "Na-synchronize ang data"
+  },
+
+  "validation": {
+    "required": "Kailangan ang {{field}}",
+    "invalidEmail": "Hindi wastong email address",
+    "passwordTooShort": "Dapat 8 characters o higit pa ang password",
+    "invalidFormat": "Hindi wastong format ng {{field}}"
+  },
+
+  "diseases": {
+    "bacterial_wilt": "Bacterial Wilt (Pagkalanta dahil sa Bakterya)",
+    "rhizome_rot": "Rhizome Rot (Pagkabulok ng Ugat)",
+    "leaf_spot": "Leaf Spot (Batik sa Dahon)",
+    "soft_rot": "Soft Rot (Malambot na Bulok)",
+    "yellow_disease": "Yellow Disease (Sakit na Paninilaw)",
+    "root_knot_nematode": "Root Knot Nematode (Bukol sa Ugat)",
+    "healthy": "Malusog na Halaman"
+  },
+
+  "severity": {
+    "low": "Mababa",
+    "medium": "Katamtaman",
+    "high": "Mataas",
+    "critical": "Kritikal"
+  },
+
+  "remedyTypes": {
+    "organic": "Organiko",
+    "chemical": "Kemikal"
+  }
+}
+

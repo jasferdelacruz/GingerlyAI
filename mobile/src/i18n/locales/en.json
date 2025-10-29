@@ -1,0 +1,288 @@
+{
+  "app": {
+    "name": "GingerlyAI",
+    "tagline": "AI-Powered Ginger Disease Detection"
+  },
+  
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "retry": "Retry",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "refresh": "Refresh",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "view": "View",
+    "download": "Download",
+    "share": "Share"
+  },
+
+  "navigation": {
+    "home": "Home",
+    "scan": "Scan",
+    "history": "History",
+    "remedies": "Remedies",
+    "profile": "Profile",
+    "settings": "Settings",
+    "about": "About",
+    "help": "Help"
+  },
+
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "location": "Location",
+    "farmSize": "Farm Size (hectares)",
+    "loginButton": "Sign In",
+    "registerButton": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "invalidEmail": "Invalid email address",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "passwordMismatch": "Passwords do not match",
+    "loginSuccess": "Login successful!",
+    "registerSuccess": "Registration successful!",
+    "loginError": "Login failed. Please check your credentials.",
+    "registerError": "Registration failed. Please try again."
+  },
+
+  "home": {
+    "welcome": "Welcome",
+    "quickScan": "Quick Scan",
+    "recentScans": "Recent Scans",
+    "statistics": "Your Statistics",
+    "totalScans": "Total Scans",
+    "diseasesDetected": "Diseases Detected",
+    "healthyPlants": "Healthy Plants",
+    "tips": "Farming Tips",
+    "weatherAlert": "Weather Alert",
+    "noRecentScans": "No recent scans. Start by scanning your ginger plants!"
+  },
+
+  "scan": {
+    "title": "Scan Ginger Plant",
+    "instruction": "Take a clear photo of the affected ginger plant",
+    "takePhoto": "Take Photo",
+    "chooseFromGallery": "Choose from Gallery",
+    "analyzing": "Analyzing image...",
+    "processingOffline": "Processing offline...",
+    "result": "Scan Result",
+    "confidence": "Confidence",
+    "disease": "Disease",
+    "severity": "Severity",
+    "viewRemedies": "View Remedies",
+    "retake": "Retake Photo",
+    "saveResult": "Save Result",
+    "shareResult": "Share Result",
+    "noImageSelected": "No image selected",
+    "cameraPermission": "Camera permission is required",
+    "uploadError": "Failed to upload image",
+    "analysisError": "Analysis failed. Please try again.",
+    "offlineMode": "Offline Mode Active"
+  },
+
+  "diseases": {
+    "bacterial_wilt": "Bacterial Wilt",
+    "rhizome_rot": "Rhizome Rot",
+    "leaf_spot": "Leaf Spot",
+    "soft_rot": "Soft Rot",
+    "yellow_disease": "Yellow Disease",
+    "root_knot_nematode": "Root Knot Nematode",
+    "healthy": "Healthy Plant",
+    "unknown": "Unknown Disease"
+  },
+
+  "severity": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "critical": "Critical"
+  },
+
+  "remedies": {
+    "title": "Remedies",
+    "searchPlaceholder": "Search remedies...",
+    "filterByDisease": "Filter by Disease",
+    "filterByType": "Filter by Type",
+    "organic": "Organic",
+    "chemical": "Chemical",
+    "all": "All",
+    "description": "Description",
+    "symptoms": "Symptoms",
+    "treatments": "Treatments",
+    "prevention": "Prevention Measures",
+    "application": "Application Method",
+    "dosage": "Dosage",
+    "timing": "Timing",
+    "effectiveness": "Effectiveness",
+    "cost": "Cost",
+    "safety": "Safety Precautions",
+    "noRemediesFound": "No remedies found",
+    "viewDetails": "View Details",
+    "organicRemedies": "Organic Remedies",
+    "chemicalRemedies": "Chemical Remedies",
+    "howToApply": "How to Apply",
+    "whenToApply": "When to Apply",
+    "precautions": "Precautions"
+  },
+
+  "history": {
+    "title": "Scan History",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month",
+    "older": "Older",
+    "noHistory": "No scan history yet",
+    "deleteConfirm": "Are you sure you want to delete this scan?",
+    "deleted": "Scan deleted",
+    "exportHistory": "Export History",
+    "clearHistory": "Clear All History",
+    "clearConfirm": "Are you sure you want to clear all history?",
+    "filter": "Filter by Date",
+    "sortBy": "Sort by",
+    "date": "Date",
+    "diseaseType": "Disease Type"
+  },
+
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "changePassword": "Change Password",
+    "personalInfo": "Personal Information",
+    "farmInfo": "Farm Information",
+    "accountSettings": "Account Settings",
+    "language": "Language",
+    "notifications": "Notifications",
+    "offline": "Offline Mode",
+    "dataSync": "Data Sync",
+    "syncNow": "Sync Now",
+    "lastSync": "Last Synced",
+    "never": "Never",
+    "updateSuccess": "Profile updated successfully",
+    "updateError": "Failed to update profile",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "passwordChanged": "Password changed successfully",
+    "logoutConfirm": "Are you sure you want to logout?"
+  },
+
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "language": "Language",
+    "selectLanguage": "Select Language",
+    "theme": "Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "autoMode": "Auto",
+    "notifications": "Notifications",
+    "pushNotifications": "Push Notifications",
+    "emailNotifications": "Email Notifications",
+    "weatherAlerts": "Weather Alerts",
+    "diseaseAlerts": "Disease Alerts",
+    "storage": "Storage",
+    "clearCache": "Clear Cache",
+    "cacheCleared": "Cache cleared successfully",
+    "downloadData": "Download Offline Data",
+    "dataDownloaded": "Offline data downloaded",
+    "about": "About",
+    "version": "Version",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "contactSupport": "Contact Support"
+  },
+
+  "offline": {
+    "title": "Offline Mode",
+    "enabled": "Offline mode is enabled",
+    "disabled": "Offline mode is disabled",
+    "dataAvailable": "Offline data available",
+    "dataNotAvailable": "Offline data not available",
+    "downloadPrompt": "Download data for offline use?",
+    "downloading": "Downloading offline data...",
+    "downloadComplete": "Offline data ready",
+    "downloadError": "Failed to download offline data",
+    "syncPending": "Changes will sync when online",
+    "noConnection": "No internet connection",
+    "useOffline": "Using offline mode"
+  },
+
+  "errors": {
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "unauthorized": "Session expired. Please login again.",
+    "notFound": "Resource not found.",
+    "validationError": "Please check your input.",
+    "unknownError": "An error occurred. Please try again.",
+    "cameraError": "Camera access error",
+    "locationError": "Location access error",
+    "storageError": "Storage access error"
+  },
+
+  "success": {
+    "saved": "Saved successfully",
+    "updated": "Updated successfully",
+    "deleted": "Deleted successfully",
+    "uploaded": "Uploaded successfully",
+    "shared": "Shared successfully",
+    "synced": "Synced successfully"
+  },
+
+  "tips": {
+    "title": "Farming Tips",
+    "plantingTips": "Planting Tips",
+    "careTips": "Care Tips",
+    "harvestTips": "Harvest Tips",
+    "storageTips": "Storage Tips",
+    "seasonal": "Seasonal Advice"
+  },
+
+  "weather": {
+    "title": "Weather Forecast",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "rainfall": "Rainfall",
+    "windSpeed": "Wind Speed",
+    "alert": "Weather Alert",
+    "favorableConditions": "Favorable growing conditions",
+    "unfavorableConditions": "Unfavorable conditions - monitor plants closely"
+  },
+
+  "export": {
+    "title": "Export Data",
+    "selectFormat": "Select Format",
+    "pdf": "PDF Report",
+    "csv": "CSV Spreadsheet",
+    "excel": "Excel File",
+    "image": "Image",
+    "exporting": "Exporting...",
+    "exportSuccess": "Export successful",
+    "exportError": "Export failed"
+  }
+}
+
