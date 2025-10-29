@@ -9,7 +9,14 @@
     "migrate": "npx sequelize-cli db:migrate",
     "migrate:undo": "npx sequelize-cli db:migrate:undo",
     "seed": "npx sequelize-cli db:seed:all",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci --coverage --maxWorkers=2",
+    "test:verbose": "jest --verbose",
+    "test:controllers": "jest controllers",
+    "test:middleware": "jest middleware",
+    "test:models": "jest models"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
