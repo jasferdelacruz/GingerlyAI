@@ -38,6 +38,8 @@ import {
   time,
   checkmarkCircle,
   alertCircle,
+  shield,
+  construct,
 } from 'ionicons/icons';
 import { useHistory } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
@@ -172,10 +174,41 @@ const Home = () => {
             </IonCardHeader>
             <IonCardContent>
               <IonText color="medium">
-                Ready to detect ginger diseases? Tap the camera button to analyze your plants.
+                {user?.role === 'admin' 
+                  ? 'Welcome, Administrator! You have access to admin functions and all user features.'
+                  : 'Ready to detect ginger diseases? Tap the camera button to analyze your plants.'}
               </IonText>
             </IonCardContent>
           </IonCard>
+
+          {/* Admin Dashboard Access - Only for Admins */}
+          {user?.role === 'admin' && (
+            <IonCard color="primary">
+              <IonCardHeader>
+                <IonCardTitle>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <IonIcon icon={shield} />
+                    Administrator Access
+                  </div>
+                </IonCardTitle>
+              </IonCardHeader>
+              <IonCardContent>
+                <IonText>
+                  <p style={{ marginBottom: '16px' }}>
+                    Access admin functions to manage users, remedies, and ML models.
+                  </p>
+                </IonText>
+                <IonButton 
+                  expand="block" 
+                  color="light"
+                  onClick={() => history.push('/admin')}
+                >
+                  <IonIcon icon={shield} slot="start" />
+                  Open Admin Dashboard
+                </IonButton>
+              </IonCardContent>
+            </IonCard>
+          )}
 
           {/* Quick Stats */}
           <IonGrid>

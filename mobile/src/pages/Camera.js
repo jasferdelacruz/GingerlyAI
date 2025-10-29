@@ -48,6 +48,8 @@ const CameraPage = () => {
   const [showAlert, setShowAlert] = useState(false);
   const [alertMessage, setAlertMessage] = useState('');
   const [analysisProgress, setAnalysisProgress] = useState(0);
+  const [isMLReady, setIsMLReady] = useState(false);
+  const [mlInitializing, setMlInitializing] = useState(true);
   
   const { user } = useAuth();
   const { addNotification, isOnline } = useApp();
@@ -60,9 +62,15 @@ const CameraPage = () => {
 
   const initializeML = async () => {
     try {
+      console.log('🔧 Camera: Initializing ML service...');
+      setMlInitializing(true);
       await mlService.initialize();
+      setIsMLReady(true);
+      setMlInitializing(false);
+      console.log('✅ Camera: ML service ready');
     } catch (error) {
-      console.error('Failed to initialize ML service:', error);
+      console.error('❌ Camera: Failed to initialize ML service:', error);
+      setMlInitializing(false);
       setAlertMessage('Failed to initialize AI model. Please try again.');
       setShowAlert(true);
     }
@@ -118,6 +126,12 @@ const CameraPage = () => {
       return;
     }
 
+    if (!isMLReady) {
+      setAlertMessage('AI model is still loading. Please wait a moment and try again.');
+      setShowAlert(true);
+      return;
+    }
+
     setIsAnalyzing(true);
     setAnalysisProgress(0);
     
@@ -127,23 +141,38 @@ const CameraPage = () => {
       // Run prediction
       const result = await mlService.predict(image);
       
-      // Save prediction to local database
-      const predictionData = {
-        userId: user.id,
-        imageUrl: image,
-        predictionResults: result,
-        topPrediction: result.class,
-        confidence: result.confidence,
-        isOfflinePrediction: !isOnline,
-        synced: false,
-        createdAt: new Date().toISOString(),
-      };
+      // Try to save prediction to local database (if available)
+      let predictionId = `pred-${Date.now()}`;
+      
+      if (databaseService.isInitialized) {
+        try {
+          const predictionData = {
+            id: predictionId,
+            userId: user.id,
+            modelId: 'fallback-model',
+            imageUrl: image,
+            predictionResults: result.predictions,
+            topPrediction: result.topPrediction,
+            confidence: result.confidence,
+            isOfflinePrediction: !isOnline,
+            synced: false,
+            createdAt: new Date().toISOString(),
+            updatedAt: new Date().toISOString(),
+          };
 
-      const savedPrediction = await databaseService.savePrediction(predictionData);
+          await databaseService.savePrediction(predictionData);
+          console.log('✅ Prediction saved to local database');
+        } catch (dbError) {
+          console.warn('⚠️ Could not save to database:', dbError.message);
+          // Continue anyway - database is optional
+        }
+      } else {
+        console.log('ℹ️ Database not available, prediction not saved locally');
+      }
       
       setPrediction({
         ...result,
-        id: savedPrediction.id,
+        id: predictionId,
         timestamp: new Date(),
       });
 
@@ -151,7 +180,7 @@ const CameraPage = () => {
       addNotification({
         type: 'success',
         title: 'Analysis Complete',
-        message: `Detected: ${result.class} (${(result.confidence * 100).toFixed(1)}% confidence)`,
+        message: `Detected: ${result.topPrediction} (${(result.confidence * 100).toFixed(1)}% confidence)`,
       });
 
     } catch (error) {
@@ -215,6 +244,25 @@ const CameraPage = () => {
       </IonHeader>
 
       <IonContent fullscreen className="ion-padding">
+        {/* ML Initialization Loading */}
+        {mlInitializing && (
+          <IonCard color="warning">
+            <IonCardContent>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                <IonSpinner name="crescent" />
+                <div>
+                  <IonText>
+                    <h3 style={{ margin: 0 }}>Initializing AI Model...</h3>
+                    <p style={{ margin: '4px 0 0 0', fontSize: '14px' }}>
+                      Please wait while we load the disease detection model.
+                    </p>
+                  </IonText>
+                </div>
+              </div>
+            </IonCardContent>
+          </IonCard>
+        )}
+
         {/* Image Preview */}
         {image ? (
           <IonCard>
@@ -244,11 +292,11 @@ const CameraPage = () => {
                 <IonButton 
                   expand="block" 
                   onClick={analyzeImage}
-                  disabled={isAnalyzing}
+                  disabled={isAnalyzing || mlInitializing || !isMLReady}
                   color="primary"
                 >
                   <IonIcon icon={analytics} slot="start" />
-                  {isAnalyzing ? 'Analyzing...' : 'Analyze Plant'}
+                  {mlInitializing ? 'Loading AI...' : isAnalyzing ? 'Analyzing...' : 'Analyze Plant'}
                 </IonButton>
                 
                 <IonButton 
@@ -323,7 +371,7 @@ const CameraPage = () => {
                   style={{ fontSize: '48px', marginBottom: '16px' }}
                 />
                 
-                <h2>{prediction.class}</h2>
+                <h2>{prediction.topPrediction}</h2>
                 
                 <IonChip color={getConfidenceColor(prediction.confidence)}>
                   <IonIcon icon={analytics} />

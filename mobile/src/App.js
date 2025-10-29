@@ -44,12 +44,27 @@ import AdminModels from './pages/admin/AdminModels';
 import ProtectedRoute from './components/ProtectedRoute';
 import AdminRoute from './components/AdminRoute';
 
+/* Services */
+import { databaseService } from './services/databaseService';
+
 setupIonicReact();
 
 const App = () => {
   useEffect(() => {
     // Initialize app
     console.log('GingerlyAI Mobile App Started');
+    
+    // Initialize database service
+    const initDatabase = async () => {
+      try {
+        await databaseService.initialize();
+        console.log('✅ Database service initialized');
+      } catch (error) {
+        console.error('❌ Failed to initialize database:', error);
+      }
+    };
+    
+    initDatabase();
   }, []);
 
   return (

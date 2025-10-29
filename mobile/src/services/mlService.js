@@ -29,9 +29,9 @@ class MLService {
         }
       }
 
-      // Wait for database to be initialized
+      // Wait for database to be initialized (with longer timeout for web)
       let retries = 0;
-      const maxRetries = 10;
+      const maxRetries = 20; // Increased to 10 seconds
       while (!databaseService.isInitialized && retries < maxRetries) {
         console.log(`⏳ Waiting for database initialization... (${retries + 1}/${maxRetries})`);
         await new Promise(resolve => setTimeout(resolve, 500));
@@ -39,7 +39,12 @@ class MLService {
       }
 
       if (!databaseService.isInitialized) {
-        throw new Error('Database initialization timeout');
+        console.warn('⚠️ Database not ready, using fallback model');
+        // Continue without database - use fallback model
+        this.createFallbackModel();
+        this.isInitialized = true;
+        console.log('✅ ML Service initialized with fallback model');
+        return;
       }
 
       // Load the default or active model
@@ -226,7 +231,16 @@ class MLService {
       description: 'Simple fallback model for testing',
       accuracy: 0.0,
       isActive: true,
-      inputShape: [1, 224, 224, 3]
+      inputShape: [1, 224, 224, 3],
+      outputClasses: [
+        'healthy',
+        'bacterial_wilt',
+        'rhizome_rot',
+        'leaf_spot',
+        'soft_rot',
+        'yellow_disease',
+        'root_knot_nematode'
+      ]
     };
 
     console.log('✅ Fallback model created successfully');

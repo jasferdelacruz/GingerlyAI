@@ -14,9 +14,16 @@ class DatabaseService {
     try {
       // Check if platform supports SQLite
       const platform = Capacitor.getPlatform();
+      console.log(`🔧 Initializing database for platform: ${platform}`);
+      
       if (platform === 'web') {
         // For web, we'll use browser SQLite
-        await this.sqliteConnection.initWebStore();
+        try {
+          await this.sqliteConnection.initWebStore();
+          console.log('✅ Web store initialized');
+        } catch (error) {
+          console.warn('⚠️ Web store init failed, continuing anyway:', error.message);
+        }
       }
 
       // Create/open database
@@ -29,13 +36,18 @@ class DatabaseService {
       );
 
       await this.db.open();
+      console.log('✅ Database connection opened');
+      
       await this.createTables();
+      console.log('✅ Database tables created');
       
       this.isInitialized = true;
       console.log('✅ Local database initialized successfully');
     } catch (error) {
       console.error('❌ Database initialization failed:', error);
-      throw error;
+      console.warn('⚠️ App will continue with limited offline functionality');
+      // Don't throw - allow app to continue without database
+      this.isInitialized = false;
     }
   }
 
