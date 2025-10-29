@@ -1,0 +1,677 @@
+{
+  "bacterial_wilt": {
+    "disease_name": "Bacterial Wilt",
+    "disease_class": "bacterial_wilt",
+    "description": "Bacterial wilt is caused by Ralstonia solanacearum, which blocks the vascular system of the plant, causing wilting and yellowing of leaves.",
+    "symptoms": [
+      "Sudden wilting of leaves",
+      "Yellowing and drooping of foliage",
+      "Brown discoloration of vascular tissue",
+      "Plant death within 7-10 days",
+      "Bacterial ooze from cut stems"
+    ],
+    "organic_remedies": [
+      {
+        "name": "Crop Rotation",
+        "description": "Rotate ginger with non-host crops like cereals or legumes for 3-4 years to break the disease cycle.",
+        "application": "Plant non-susceptible crops in infected areas",
+        "effectiveness": "High for prevention",
+        "cost": "Low",
+        "timing": "Before planting season"
+      },
+      {
+        "name": "Neem Cake Treatment",
+        "description": "Apply neem cake to soil to suppress bacterial populations and improve soil health.",
+        "application": "Mix 200-250 kg neem cake per hectare into soil before planting",
+        "effectiveness": "Medium",
+        "cost": "Medium",
+        "timing": "2-3 weeks before planting"
+      },
+      {
+        "name": "Trichoderma Application",
+        "description": "Bio-control agent that competes with pathogenic bacteria and enhances plant immunity.",
+        "application": "Mix 5 kg Trichoderma with 100 kg FYM and apply per hectare",
+        "effectiveness": "Medium to High",
+        "cost": "Low to Medium",
+        "timing": "At planting and monthly intervals"
+      },
+      {
+        "name": "Resistant Varieties",
+        "description": "Plant disease-resistant ginger varieties if available in your region.",
+        "application": "Source certified disease-free rhizomes from reputable suppliers",
+        "effectiveness": "High",
+        "cost": "Medium",
+        "timing": "At planting"
+      },
+      {
+        "name": "Soil Solarization",
+        "description": "Use solar heat to kill soil-borne bacteria before planting.",
+        "application": "Cover moist soil with transparent plastic for 4-6 weeks in hot season",
+        "effectiveness": "High",
+        "cost": "Low",
+        "timing": "1-2 months before planting"
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": "Streptocycline Treatment",
+        "description": "Antibiotic spray effective against bacterial wilt.",
+        "application": "Spray 500 ppm (0.5 g/L) streptocycline solution. Drench soil around infected plants.",
+        "effectiveness": "High",
+        "cost": "High",
+        "timing": "At first sign of infection, repeat every 10-15 days",
+        "safety_precautions": "Wear protective gear. Observe withdrawal period before harvest."
+      },
+      {
+        "name": "Copper Oxychloride",
+        "description": "Broad-spectrum bactericide for preventive and curative control.",
+        "application": "Spray 0.3% copper oxychloride (3 g/L) solution on foliage and soil drench",
+        "effectiveness": "Medium to High",
+        "cost": "Medium",
+        "timing": "Preventive sprays every 15-20 days during monsoon",
+        "safety_precautions": "Avoid spraying during hot weather. Maintain 15-day pre-harvest interval."
+      },
+      {
+        "name": "Bleaching Powder Soil Treatment",
+        "description": "Disinfect soil to reduce bacterial load in heavily infected areas.",
+        "application": "Apply 250 kg bleaching powder per hectare and incorporate into soil",
+        "effectiveness": "Medium",
+        "cost": "Low",
+        "timing": "2-3 weeks before planting",
+        "safety_precautions": "Avoid direct contact with skin. Water soil after application."
+      }
+    ],
+    "prevention_measures": [
+      "Use disease-free seed rhizomes",
+      "Improve drainage to prevent waterlogging",
+      "Avoid injury to plants during cultivation",
+      "Remove and destroy infected plants immediately",
+      "Sterilize tools between plants",
+      "Maintain proper spacing for air circulation"
+    ]
+  },
+
+  "rhizome_rot": {
+    "disease_name": "Rhizome Rot (Soft Rot)",
+    "disease_class": "rhizome_rot",
+    "description": "Rhizome rot is caused by Pythium spp. and other fungi, leading to water-soaked lesions and decay of underground rhizomes.",
+    "symptoms": [
+      "Water-soaked lesions on rhizomes",
+      "Soft, mushy texture of affected rhizomes",
+      "Foul smell from rotting tissue",
+      "Yellowing and wilting of aerial parts",
+      "Brown to black discoloration of rhizome"
+    ],
+    "organic_remedies": [
+      {
+        "name": "Trichoderma viride",
+        "description": "Biocontrol fungus that parasitizes pathogenic fungi and promotes plant health.",
+        "application": "Treat seed rhizomes with Trichoderma suspension (10 g/L) for 30 minutes before planting",
+        "effectiveness": "High",
+        "cost": "Low to Medium",
+        "timing": "Before planting and as soil drench monthly"
+      },
+      {
+        "name": "Pseudomonas fluorescens",
+        "description": "Beneficial bacteria that suppress soil-borne pathogens.",
+        "application": "Rhizome treatment with 10 g/L suspension for 30 minutes. Soil application at 5 kg/ha with FYM",
+        "effectiveness": "Medium to High",
+        "cost": "Medium",
+        "timing": "At planting and 45-60 days after planting"
+      },
+      {
+        "name": "Wood Ash Application",
+        "description": "Alkaline wood ash creates unfavorable conditions for fungal growth.",
+        "application": "Dust seed rhizomes with wood ash before planting. Apply 2-3 tons/ha to soil",
+        "effectiveness": "Low to Medium",
+        "cost": "Very Low",
+        "timing": "At planting"
+      },
+      {
+        "name": "Neem Oil Spray",
+        "description": "Antifungal properties of neem help control fungal infections.",
+        "application": "Spray 3-5% neem oil solution on foliage and as soil drench",
+        "effectiveness": "Medium",
+        "cost": "Medium",
+        "timing": "Fortnightly applications during growing season"
+      },
+      {
+        "name": "Improved Drainage",
+        "description": "Proper drainage prevents waterlogging, reducing fungal infection risk.",
+        "application": "Plant on raised beds (15-20 cm height). Install drainage channels.",
+        "effectiveness": "High for prevention",
+        "cost": "Low to Medium",
+        "timing": "Before planting"
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": "Mancozeb",
+        "description": "Contact fungicide effective against Pythium and other fungi.",
+        "application": "Treat rhizomes with 0.3% mancozeb (3 g/L) for 30 min. Soil drench at 0.25%",
+        "effectiveness": "High",
+        "cost": "Medium",
+        "timing": "Before planting and as preventive spray every 15 days",
+        "safety_precautions": "Wear mask and gloves. Maintain 15-day pre-harvest interval."
+      },
+      {
+        "name": "Metalaxyl + Mancozeb",
+        "description": "Systemic and contact fungicide combination for better control.",
+        "application": "Rhizome treatment: 2.5 g/L for 20-30 min. Foliar spray: 2 g/L every 10-15 days",
+        "effectiveness": "Very High",
+        "cost": "High",
+        "timing": "At planting and during rainy season",
+        "safety_precautions": "Use protective equipment. Follow label instructions strictly."
+      },
+      {
+        "name": "Bordeaux Mixture",
+        "description": "Traditional copper-based fungicide for protective action.",
+        "application": "Spray 1% Bordeaux mixture (10 g copper sulfate + 10 g lime per liter)",
+        "effectiveness": "Medium",
+        "cost": "Low",
+        "timing": "Monthly applications starting from 2 months after planting",
+        "safety_precautions": "Prepare fresh mixture. Avoid during hot sunny days."
+      },
+      {
+        "name": "Captan",
+        "description": "Broad-spectrum protectant fungicide.",
+        "application": "Dust rhizomes with 2% captan powder or dip in 0.2% suspension",
+        "effectiveness": "Medium to High",
+        "cost": "Medium",
+        "timing": "Before planting",
+        "safety_precautions": "Avoid inhalation. Wear protective gear during application."
+      }
+    ],
+    "prevention_measures": [
+      "Select well-drained sites for cultivation",
+      "Use certified disease-free planting material",
+      "Avoid over-irrigation and waterlogging",
+      "Practice crop rotation with non-host crops",
+      "Remove infected rhizomes and destroy them",
+      "Maintain optimal soil pH (5.5-6.5)"
+    ]
+  },
+
+  "leaf_spot": {
+    "disease_name": "Leaf Spot Disease",
+    "disease_class": "leaf_spot",
+    "description": "Leaf spot is caused by Phyllosticta zingiberi, creating small brown spots with yellow halos on leaves, reducing photosynthesis.",
+    "symptoms": [
+      "Small brown spots on leaves",
+      "Yellow halos around spots",
+      "Spots may coalesce forming larger patches",
+      "Premature leaf drop in severe cases",
+      "Reduced plant vigor and yield"
+    ],
+    "organic_remedies": [
+      {
+        "name": "Garlic Extract Spray",
+        "description": "Natural antifungal properties help control leaf spot.",
+        "application": "Blend 100g garlic with 1L water, strain, dilute 1:10 and spray on foliage",
+        "effectiveness": "Low to Medium",
+        "cost": "Very Low",
+        "timing": "Weekly applications at first sign of disease"
+      },
+      {
+        "name": "Baking Soda Solution",
+        "description": "Alkaline spray creates unfavorable conditions for fungal growth.",
+        "application": "Mix 5g baking soda + 5ml oil + 1L water. Spray on both sides of leaves",
+        "effectiveness": "Medium",
+        "cost": "Very Low",
+        "timing": "Every 7-10 days as preventive measure"
+      },
+      {
+        "name": "Neem Oil + Soap Spray",
+        "description": "Antifungal neem oil with spreading agent for better coverage.",
+        "application": "Mix 10ml neem oil + 5ml liquid soap in 1L water. Spray thoroughly",
+        "effectiveness": "Medium",
+        "cost": "Low",
+        "timing": "Fortnightly sprays starting from 45 days after planting"
+      },
+      {
+        "name": "Copper-based Organic Fungicide",
+        "description": "Organic copper formulations provide protective action.",
+        "application": "Follow manufacturer's instructions for organic copper products",
+        "effectiveness": "Medium to High",
+        "cost": "Medium",
+        "timing": "Every 10-15 days during humid weather"
+      },
+      {
+        "name": "Proper Sanitation",
+        "description": "Remove infected leaves to reduce disease spread.",
+        "application": "Remove and destroy spotted leaves. Keep field clean of debris",
+        "effectiveness": "Medium for management",
+        "cost": "Low (labor cost)",
+        "timing": "Regular monitoring and removal"
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": "Carbendazim",
+        "description": "Systemic fungicide effective against leaf spot pathogens.",
+        "application": "Spray 0.1% carbendazim (1 g/L) solution on foliage",
+        "effectiveness": "High",
+        "cost": "Medium",
+        "timing": "At first appearance, repeat every 15 days",
+        "safety_precautions": "Wear protective clothing. Observe 15-day pre-harvest interval."
+      },
+      {
+        "name": "Mancozeb",
+        "description": "Broad-spectrum protective fungicide.",
+        "application": "Spray 0.25% mancozeb (2.5 g/L) solution covering all leaf surfaces",
+        "effectiveness": "Medium to High",
+        "cost": "Low to Medium",
+        "timing": "Preventive sprays every 10-15 days during rainy season",
+        "safety_precautions": "Use mask and gloves. Avoid spray drift."
+      },
+      {
+        "name": "Propiconazole",
+        "description": "Systemic triazole fungicide with curative action.",
+        "application": "Spray 0.1% (1 ml/L) propiconazole solution",
+        "effectiveness": "High",
+        "cost": "High",
+        "timing": "At disease initiation, repeat after 20-25 days",
+        "safety_precautions": "Highly toxic. Use full protective gear. Follow label strictly."
+      },
+      {
+        "name": "Chlorothalonil",
+        "description": "Broad-spectrum protectant fungicide.",
+        "application": "Spray 0.2% chlorothalonil (2 g/L) solution",
+        "effectiveness": "Medium to High",
+        "cost": "Medium",
+        "timing": "Preventive application every 15 days",
+        "safety_precautions": "Avoid contact with skin. Maintain pre-harvest interval."
+      }
+    ],
+    "prevention_measures": [
+      "Plant in well-ventilated areas with good air circulation",
+      "Avoid overhead irrigation; use drip irrigation",
+      "Maintain proper plant spacing (20-25 cm)",
+      "Remove weeds regularly",
+      "Avoid working in wet fields",
+      "Use disease-free planting material"
+    ]
+  },
+
+  "soft_rot": {
+    "disease_name": "Soft Rot (Bacterial)",
+    "disease_class": "soft_rot",
+    "description": "Soft rot is primarily caused by Erwinia species, leading to rapid breakdown of plant tissues with characteristic foul odor.",
+    "symptoms": [
+      "Water-soaked lesions on pseudostem",
+      "Soft, mushy decay of tissues",
+      "Strong foul odor from infected areas",
+      "Yellowing and collapse of leaves",
+      "Bacterial ooze from infected tissues"
+    ],
+    "organic_remedies": [
+      {
+        "name": "Bacillus subtilis Application",
+        "description": "Beneficial bacteria that suppress soft rot pathogens.",
+        "application": "Spray 10 g/L Bacillus subtilis solution on plants and soil drench",
+        "effectiveness": "Medium to High",
+        "cost": "Medium",
+        "timing": "Preventive applications every 15 days"
+      },
+      {
+        "name": "Hydrogen Peroxide Treatment",
+        "description": "Oxidizing agent that kills bacteria on contact.",
+        "application": "Spray 3% hydrogen peroxide solution diluted 1:10 with water",
+        "effectiveness": "Medium",
+        "cost": "Low",
+        "timing": "At first sign of infection, repeat every 5-7 days"
+      },
+      {
+        "name": "Cinnamon Powder Dusting",
+        "description": "Natural antibacterial properties help prevent wound infection.",
+        "application": "Dust cinnamon powder on wounds and cut surfaces during harvesting",
+        "effectiveness": "Low to Medium",
+        "cost": "Low",
+        "timing": "After any mechanical injury or during harvest"
+      },
+      {
+        "name": "Mustard Cake Extract",
+        "description": "Contains compounds with antibacterial activity.",
+        "application": "Soak 1 kg mustard cake in 10L water for 24h, filter and spray",
+        "effectiveness": "Low",
+        "cost": "Very Low",
+        "timing": "Weekly applications as preventive measure"
+      },
+      {
+        "name": "Improved Cultivation Practices",
+        "description": "Cultural methods to reduce infection risk.",
+        "application": "Avoid injuries, improve drainage, remove infected plants immediately",
+        "effectiveness": "High for prevention",
+        "cost": "Low",
+        "timing": "Throughout growing season"
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": "Streptocycline + Copper Oxychloride",
+        "description": "Combination of antibiotic and bactericide for enhanced control.",
+        "application": "Mix streptocycline (100 ppm) with copper oxychloride (0.3%). Spray and soil drench",
+        "effectiveness": "Very High",
+        "cost": "High",
+        "timing": "At first symptoms, repeat every 10 days",
+        "safety_precautions": "Wear protective gear. Follow resistance management practices."
+      },
+      {
+        "name": "Copper Hydroxide",
+        "description": "Fixed copper bactericide with good residual activity.",
+        "application": "Spray 0.3% copper hydroxide (3 g/L) solution",
+        "effectiveness": "Medium to High",
+        "cost": "Medium",
+        "timing": "Preventive sprays every 15 days during wet season",
+        "safety_precautions": "Avoid phytotoxicity by not spraying in very hot weather."
+      },
+      {
+        "name": "Tetracycline",
+        "description": "Antibiotic effective against gram-positive and gram-negative bacteria.",
+        "application": "Spray 500 ppm tetracycline solution (0.5 g/L)",
+        "effectiveness": "High",
+        "cost": "High",
+        "timing": "At infection onset, repeat every 7-10 days",
+        "safety_precautions": "Use as last resort. Observe proper withdrawal period."
+      }
+    ],
+    "prevention_measures": [
+      "Plant in well-drained raised beds",
+      "Avoid mechanical injuries to plants",
+      "Use disease-free, healthy rhizomes",
+      "Maintain field sanitation",
+      "Remove and burn infected plants",
+      "Sterilize tools between plants",
+      "Avoid excess nitrogen fertilization"
+    ]
+  },
+
+  "yellow_disease": {
+    "disease_name": "Yellow Disease (Fusarium Wilt)",
+    "disease_class": "yellow_disease",
+    "description": "Yellow disease is caused by Fusarium oxysporum, a soil-borne fungus that causes vascular wilt and yellowing of leaves.",
+    "symptoms": [
+      "Yellowing of lower leaves progressing upward",
+      "Drooping and wilting of leaves",
+      "Browning of vascular tissue",
+      "Stunted growth",
+      "Plant death in severe cases"
+    ],
+    "organic_remedies": [
+      {
+        "name": "Trichoderma harzianum",
+        "description": "Aggressive biocontrol fungus effective against Fusarium.",
+        "application": "Treat rhizomes with 10 g/L suspension. Apply 5 kg/ha mixed with FYM",
+        "effectiveness": "High",
+        "cost": "Medium",
+        "timing": "Before planting and at 45, 90 days after planting"
+      },
+      {
+        "name": "Aspergillus niger",
+        "description": "Biocontrol agent that produces antifungal metabolites.",
+        "application": "Apply 5 kg/ha Aspergillus niger formulation with organic matter",
+        "effectiveness": "Medium",
+        "cost": "Medium",
+        "timing": "Soil application before planting"
+      },
+      {
+        "name": "Farmyard Manure (FYM) + Neem Cake",
+        "description": "Improves soil health and suppresses pathogenic fungi.",
+        "application": "Apply 20-25 tons FYM + 1 ton neem cake per hectare",
+        "effectiveness": "Medium for prevention",
+        "cost": "Medium",
+        "timing": "2-3 weeks before planting"
+      },
+      {
+        "name": "Turmeric Extract",
+        "description": "Curcumin has antifungal properties against Fusarium.",
+        "application": "Soak 100g turmeric powder in 1L water overnight, filter, dilute 1:5 and spray",
+        "effectiveness": "Low to Medium",
+        "cost": "Low",
+        "timing": "Fortnightly applications"
+      },
+      {
+        "name": "Soil Solarization",
+        "description": "Solar heat reduces Fusarium population in soil.",
+        "application": "Cover moist soil with transparent plastic for 6 weeks in summer",
+        "effectiveness": "High",
+        "cost": "Low",
+        "timing": "2 months before planting"
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": "Carbendazim",
+        "description": "Systemic benzimidazole fungicide effective against Fusarium.",
+        "application": "Rhizome treatment: 0.2% (2 g/L) for 30 min. Soil drench: 0.1%",
+        "effectiveness": "High",
+        "cost": "Medium",
+        "timing": "Before planting and as drench every 30 days",
+        "safety_precautions": "Wear gloves and mask. Avoid contaminating water sources."
+      },
+      {
+        "name": "Thiophanate Methyl",
+        "description": "Systemic fungicide with preventive and curative action.",
+        "application": "Spray 0.1% (1 g/L) solution or soil drench at 2 g/L",
+        "effectiveness": "High",
+        "cost": "High",
+        "timing": "At first symptoms, repeat every 20-25 days",
+        "safety_precautions": "Use protective equipment. Observe pre-harvest interval."
+      },
+      {
+        "name": "Propiconazole",
+        "description": "Triazole fungicide with systemic movement.",
+        "application": "Soil drench with 0.1% (1 ml/L) solution around plant base",
+        "effectiveness": "Very High",
+        "cost": "High",
+        "timing": "Preventive application at 60 and 120 days after planting",
+        "safety_precautions": "Highly toxic. Follow label instructions strictly."
+      },
+      {
+        "name": "Tebuconazole",
+        "description": "Systemic triazole fungicide for Fusarium control.",
+        "application": "Rhizome treatment: 0.1% (1 ml/L) for 30 min. Foliar spray: 0.05%",
+        "effectiveness": "High",
+        "cost": "High",
+        "timing": "Before planting and as foliar spray every 30 days",
+        "safety_precautions": "Use protective gear. Avoid spray drift."
+      }
+    ],
+    "prevention_measures": [
+      "Use resistant or tolerant varieties",
+      "Practice 3-4 year crop rotation",
+      "Use disease-free seed rhizomes",
+      "Maintain proper drainage",
+      "Avoid infected field for cultivation",
+      "Remove and destroy infected plants",
+      "Optimize soil pH (6.0-6.5)"
+    ]
+  },
+
+  "root_knot_nematode": {
+    "disease_name": "Root Knot Nematode",
+    "disease_class": "root_knot_nematode",
+    "description": "Root knot nematode (Meloidogyne spp.) attacks roots forming galls, reducing nutrient and water uptake, causing stunting and yield loss.",
+    "symptoms": [
+      "Galls or knots on roots and rhizomes",
+      "Stunted and yellowed plants",
+      "Wilting despite adequate moisture",
+      "Reduced rhizome size and quality",
+      "Poor tillering"
+    ],
+    "organic_remedies": [
+      {
+        "name": "Paecilomyces lilacinus",
+        "description": "Nematophagous fungus that parasitizes nematode eggs.",
+        "application": "Apply 5 kg/ha Paecilomyces formulation mixed with FYM or compost",
+        "effectiveness": "High",
+        "cost": "Medium",
+        "timing": "At planting and 60 days after planting"
+      },
+      {
+        "name": "Neem Cake Application",
+        "description": "Releases compounds toxic to nematodes and improves soil health.",
+        "application": "Apply 1-2 tons neem cake per hectare, incorporate into soil",
+        "effectiveness": "Medium to High",
+        "cost": "Medium",
+        "timing": "3 weeks before planting"
+      },
+      {
+        "name": "Marigold Trap Cropping",
+        "description": "Marigold attracts nematodes but doesn't allow reproduction.",
+        "application": "Plant African marigold as border crop or intercrop every 4-5 rows",
+        "effectiveness": "Medium",
+        "cost": "Low",
+        "timing": "Along with ginger or as preceding crop"
+      },
+      {
+        "name": "Pseudomonas fluorescens",
+        "description": "Produces toxic compounds and competes with nematodes.",
+        "application": "Rhizome treatment: 10 g/L for 30 min. Soil application: 5 kg/ha with FYM",
+        "effectiveness": "Medium",
+        "cost": "Medium",
+        "timing": "Before planting and at 45 days after planting"
+      },
+      {
+        "name": "Organic Matter Amendment",
+        "description": "High organic matter supports beneficial organisms that suppress nematodes.",
+        "application": "Apply 25-30 tons well-decomposed FYM or compost per hectare",
+        "effectiveness": "Medium for long-term management",
+        "cost": "Medium",
+        "timing": "2-4 weeks before planting"
+      },
+      {
+        "name": "Castor Cake",
+        "description": "Contains ricinine, toxic to nematodes.",
+        "application": "Apply 500-750 kg castor cake per hectare, incorporate into soil",
+        "effectiveness": "Medium to High",
+        "cost": "Medium to High",
+        "timing": "3 weeks before planting"
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": "Carbofuran",
+        "description": "Systemic nematicide and insecticide granules.",
+        "application": "Apply 30-40 kg Carbofuran 3G per hectare at planting, incorporate into soil",
+        "effectiveness": "Very High",
+        "cost": "High",
+        "timing": "At planting time",
+        "safety_precautions": "Highly toxic. Wear gloves. Do not use bare hands. Being phased out in many countries."
+      },
+      {
+        "name": "Phorate",
+        "description": "Organophosphate nematicide with systemic action.",
+        "application": "Apply 10-15 kg Phorate 10G per hectare in furrows before planting",
+        "effectiveness": "High",
+        "cost": "Medium to High",
+        "timing": "At planting",
+        "safety_precautions": "Highly toxic. Use protective equipment. Avoid skin contact. Restricted in many regions."
+      },
+      {
+        "name": "Cartap Hydrochloride",
+        "description": "Nereistoxin analogue with nematicidal activity.",
+        "application": "Apply 10-12 kg Cartap 4G per hectare at planting",
+        "effectiveness": "Medium to High",
+        "cost": "Medium",
+        "timing": "At planting and 60 days after planting",
+        "safety_precautions": "Moderately toxic. Wear protective gear."
+      },
+      {
+        "name": "Dazomet",
+        "description": "Soil fumigant that releases methylisothiocyanate.",
+        "application": "Apply 300-400 kg/ha, incorporate 15-20 cm deep, cover with plastic for 2 weeks",
+        "effectiveness": "Very High",
+        "cost": "Very High",
+        "timing": "4-6 weeks before planting",
+        "safety_precautions": "Highly toxic gas. Professional application recommended. Clear area of people/animals."
+      }
+    ],
+    "prevention_measures": [
+      "Use certified nematode-free planting material",
+      "Practice crop rotation with non-host crops (cereals, pulses)",
+      "Hot water treatment of rhizomes (51°C for 10 minutes)",
+      "Deep summer ploughing to expose nematodes to sun",
+      "Avoid movement of soil/equipment from infected fields",
+      "Maintain field sanitation",
+      "Plant tolerant varieties if available"
+    ]
+  },
+
+  "healthy": {
+    "disease_name": "Healthy Plant Maintenance",
+    "disease_class": "healthy",
+    "description": "Preventive measures and best practices to maintain healthy ginger plants and prevent disease occurrence.",
+    "symptoms": [],
+    "organic_remedies": [
+      {
+        "name": "Balanced Nutrition",
+        "description": "Proper nutrition enhances plant immunity and disease resistance.",
+        "application": "Apply 25-30 tons FYM + 60:50:120 kg NPK per hectare in split doses",
+        "effectiveness": "High for prevention",
+        "cost": "Medium",
+        "timing": "FYM before planting, NPK in 3-4 splits during growing season"
+      },
+      {
+        "name": "Compost Tea Spray",
+        "description": "Beneficial microbes boost plant health and suppress pathogens.",
+        "application": "Brew 1 kg compost in 10L water for 24h, strain and spray",
+        "effectiveness": "Medium for prevention",
+        "cost": "Low",
+        "timing": "Fortnightly applications throughout growing season"
+      },
+      {
+        "name": "Mulching",
+        "description": "Conserves moisture, regulates temperature, and suppresses weeds.",
+        "application": "Apply 5-7 cm layer of organic mulch (leaves, straw, grass)",
+        "effectiveness": "High for overall plant health",
+        "cost": "Low to Medium",
+        "timing": "After planting and replenish as needed"
+      },
+      {
+        "name": "Vermiwash Application",
+        "description": "Liquid fertilizer with growth hormones and beneficial microbes.",
+        "application": "Dilute vermiwash 1:10 with water, spray on foliage or soil drench",
+        "effectiveness": "Medium for plant vigor",
+        "cost": "Low",
+        "timing": "Every 15 days during vegetative growth"
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": "Micronutrient Spray",
+        "description": "Corrects deficiencies and enhances plant immunity.",
+        "application": "Spray multi-micronutrient mixture (Zn, Fe, Mn, B) as per manufacturer's instructions",
+        "effectiveness": "Medium for prevention",
+        "cost": "Low to Medium",
+        "timing": "3-4 sprays at 30-day intervals starting from 45 days after planting",
+        "safety_precautions": "Follow recommended doses. Over-application can cause toxicity."
+      },
+      {
+        "name": "Humic Acid Application",
+        "description": "Improves nutrient uptake and stimulates plant growth.",
+        "application": "Apply 0.1-0.2% humic acid solution as soil drench or foliar spray",
+        "effectiveness": "Medium for plant vigor",
+        "cost": "Medium",
+        "timing": "Monthly applications during growing season",
+        "safety_precautions": "Non-toxic but follow application guidelines."
+      }
+    ],
+    "prevention_measures": [
+      "Select well-drained, fertile soil with pH 5.5-6.5",
+      "Use certified disease-free seed rhizomes",
+      "Treat seed rhizomes with biocontrol agents before planting",
+      "Maintain proper plant spacing (20-25 cm)",
+      "Ensure good drainage through raised beds",
+      "Practice crop rotation (3-4 years)",
+      "Apply adequate organic matter",
+      "Mulch to conserve moisture and suppress weeds",
+      "Monitor regularly for pest and disease symptoms",
+      "Maintain field sanitation",
+      "Irrigate properly - avoid waterlogging and drought stress",
+      "Remove and destroy any infected plants immediately",
+      "Avoid working in wet fields to prevent disease spread"
+    ]
+  }
+}
+
