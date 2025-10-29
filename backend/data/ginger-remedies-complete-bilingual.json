@@ -1,0 +1,1990 @@
+{
+  "bacterial_wilt": {
+    "disease_name": {
+      "en": "Bacterial Wilt",
+      "tl": "Bacterial Wilt (Pagkalanta dahil sa Bakterya)"
+    },
+    "disease_class": "bacterial_wilt",
+    "description": {
+      "en": "Bacterial wilt is caused by Ralstonia solanacearum, which blocks the vascular system of the plant, causing wilting and yellowing of leaves.",
+      "tl": "Ang bacterial wilt ay dulot ng Ralstonia solanacearum, na humaharang sa vascular system ng halaman, na nagiging sanhi ng pagkalanta at paninilaw ng mga dahon."
+    },
+    "symptoms": {
+      "en": [
+        "Sudden wilting of leaves",
+        "Yellowing and drooping of foliage",
+        "Brown discoloration of vascular tissue",
+        "Plant death within 7-10 days",
+        "Bacterial ooze from cut stems"
+      ],
+      "tl": [
+        "Biglaang paglanta ng mga dahon",
+        "Paninilaw at paglaylay ng mga dahon",
+        "Pagka-kayumanggi ng vascular tissue",
+        "Pagkamatay ng halaman sa loob ng 7-10 araw",
+        "Bacterial ooze mula sa mga pinutol na tangkay"
+      ]
+    },
+    "prevention_measures": {
+      "en": [
+        "Use disease-free seed rhizomes",
+        "Improve drainage to prevent waterlogging",
+        "Avoid injury to plants during cultivation",
+        "Remove and destroy infected plants immediately",
+        "Sterilize tools between plants",
+        "Maintain proper spacing for air circulation"
+      ],
+      "tl": [
+        "Gumamit ng walang sakit na binhing ugat (rhizomes)",
+        "Pagbutihin ang drainage para maiwasan ang pagbaha",
+        "Iwasan ang pagka-sugat ng halaman habang nagsasaka",
+        "Alisin at sunugin agad ang may sakit na halaman",
+        "I-sterilize ang mga kasangkapan pagkatapos gamitin",
+        "Panatilihin ang tamang espasyo para sa daloy ng hangin"
+      ]
+    },
+    "organic_remedies": [
+      {
+        "name": {
+          "en": "Crop Rotation",
+          "tl": "Pag-rotate ng Pananim"
+        },
+        "description": {
+          "en": "Rotate ginger with non-host crops like cereals or legumes for 3-4 years to break the disease cycle.",
+          "tl": "Mag-rotate ng luya kasama ang ibang pananim tulad ng cereal o legumes sa loob ng 3-4 taon upang maputol ang ikot ng sakit."
+        },
+        "application": {
+          "en": "Plant non-susceptible crops in infected areas",
+          "tl": "Magtanim ng hindi madaling tamaan ng sakit sa mga apektadong lugar"
+        },
+        "effectiveness": {
+          "en": "High for prevention",
+          "tl": "Mataas para sa pag-iwas"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "Before planting season",
+          "tl": "Bago ang panahon ng pagtatanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Neem Cake Treatment",
+          "tl": "Neem Cake Treatment"
+        },
+        "description": {
+          "en": "Apply neem cake to soil to suppress bacterial populations and improve soil health.",
+          "tl": "Maglagay ng neem cake sa lupa para sugpuin ang bakterya at pagbutihin ang kalusugan ng lupa."
+        },
+        "application": {
+          "en": "Mix 200-250 kg neem cake per hectare into soil before planting",
+          "tl": "Haluin ang 200-250 kg neem cake bawat ektarya sa lupa bago magtanim"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "2-3 weeks before planting",
+          "tl": "2-3 linggo bago magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Trichoderma Application",
+          "tl": "Paggamit ng Trichoderma"
+        },
+        "description": {
+          "en": "Bio-control agent that competes with pathogenic bacteria and enhances plant immunity.",
+          "tl": "Bio-control agent na nakikipag-compete sa makasama na bakterya at nagpapalakas ng immunity ng halaman."
+        },
+        "application": {
+          "en": "Mix 5 kg Trichoderma with 100 kg FYM and apply per hectare",
+          "tl": "Haluin ang 5 kg Trichoderma sa 100 kg FYM at ilagay bawat ektarya"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "timing": {
+          "en": "At planting and monthly intervals",
+          "tl": "Sa pagtatanim at bawat buwan"
+        }
+      },
+      {
+        "name": {
+          "en": "Resistant Varieties",
+          "tl": "Matitigas na Uri ng Luya"
+        },
+        "description": {
+          "en": "Plant disease-resistant ginger varieties if available in your region.",
+          "tl": "Magtanim ng uri ng luya na lumalaban sa sakit kung mayroon sa inyong lugar."
+        },
+        "application": {
+          "en": "Source certified disease-free rhizomes from reputable suppliers",
+          "tl": "Kumuha ng sertipikadong walang sakit na ugat mula sa maaasahang supplier"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "At planting",
+          "tl": "Sa pagtatanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Soil Solarization",
+          "tl": "Paggamit ng Araw sa Lupa"
+        },
+        "description": {
+          "en": "Use solar heat to kill soil-borne bacteria before planting.",
+          "tl": "Gamitin ang init ng araw para patayin ang bakterya sa lupa bago magtanim."
+        },
+        "application": {
+          "en": "Cover moist soil with transparent plastic for 4-6 weeks in hot season",
+          "tl": "Takpan ang basang lupa ng malinaw na plastic ng 4-6 na linggo sa tag-init"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "1-2 months before planting",
+          "tl": "1-2 buwan bago magtanim"
+        }
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": {
+          "en": "Streptocycline Treatment",
+          "tl": "Streptocycline Treatment"
+        },
+        "description": {
+          "en": "Antibiotic spray effective against bacterial wilt.",
+          "tl": "Antibiotic spray na epektibo laban sa bacterial wilt."
+        },
+        "application": {
+          "en": "Spray 500 ppm (0.5 g/L) streptocycline solution. Drench soil around infected plants.",
+          "tl": "Mag-spray ng 500 ppm (0.5 g/L) streptocycline solution. Buhusan ang lupa sa paligid ng may sakit na halaman."
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "At first sign of infection, repeat every 10-15 days",
+          "tl": "Sa unang palatandaan ng sakit, ulitin bawat 10-15 araw"
+        },
+        "safety_precautions": {
+          "en": "Wear protective gear. Observe withdrawal period before harvest.",
+          "tl": "Magsuot ng protective gear. Sundin ang withdrawal period bago mag-ani."
+        }
+      },
+      {
+        "name": {
+          "en": "Copper Oxychloride",
+          "tl": "Copper Oxychloride"
+        },
+        "description": {
+          "en": "Broad-spectrum bactericide for preventive and curative control.",
+          "tl": "Broad-spectrum bactericide para sa pag-iwas at paggamot."
+        },
+        "application": {
+          "en": "Spray 0.3% copper oxychloride (3 g/L) solution on foliage and soil drench",
+          "tl": "Mag-spray ng 0.3% copper oxychloride (3 g/L) solution sa dahon at buhusan ang lupa"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Preventive sprays every 15-20 days during monsoon",
+          "tl": "Pag-spray para sa pag-iwas bawat 15-20 araw tuwing tag-ulan"
+        },
+        "safety_precautions": {
+          "en": "Avoid spraying during hot weather. Maintain 15-day pre-harvest interval.",
+          "tl": "Iwasan ang pag-spray sa mainit na panahon. Sundin ang 15-araw na interval bago mag-ani."
+        }
+      },
+      {
+        "name": {
+          "en": "Bleaching Powder Soil Treatment",
+          "tl": "Bleaching Powder para sa Lupa"
+        },
+        "description": {
+          "en": "Disinfect soil to reduce bacterial load in heavily infected areas.",
+          "tl": "I-disinfect ang lupa para bawasan ang bakterya sa mga lugar na lubhang apektado."
+        },
+        "application": {
+          "en": "Apply 250 kg bleaching powder per hectare and incorporate into soil",
+          "tl": "Maglagay ng 250 kg bleaching powder bawat ektarya at haluin sa lupa"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "2-3 weeks before planting",
+          "tl": "2-3 linggo bago magtanim"
+        },
+        "safety_precautions": {
+          "en": "Avoid direct contact with skin. Water soil after application.",
+          "tl": "Iwasan ang direktang contact sa balat. Diliguan ang lupa pagkatapos gamitin."
+        }
+      }
+    ]
+  },
+
+  "rhizome_rot": {
+    "disease_name": {
+      "en": "Rhizome Rot (Soft Rot)",
+      "tl": "Pagkabulok ng Ugat"
+    },
+    "disease_class": "rhizome_rot",
+    "description": {
+      "en": "Rhizome rot is caused by Pythium spp. and other fungi, leading to water-soaked lesions and decay of underground rhizomes.",
+      "tl": "Ang pagkabulok ng ugat ay dulot ng Pythium spp. at iba pang fungus, na nagiging sanhi ng basang-basa na sugat at pagkabulok ng ugat sa ilalim ng lupa."
+    },
+    "symptoms": {
+      "en": [
+        "Water-soaked lesions on rhizomes",
+        "Soft, mushy texture of affected rhizomes",
+        "Foul smell from rotting tissue",
+        "Yellowing and wilting of aerial parts",
+        "Brown to black discoloration of rhizome"
+      ],
+      "tl": [
+        "Basang-basa na sugat sa mga ugat",
+        "Malambot at malagkit na textura ng apektadong ugat",
+        "Mabahong amoy mula sa bulok na bahagi",
+        "Paninilaw at paglanta ng mga bahaging nasa ibabaw",
+        "Pagka-kayumanggi hanggang pag-itim ng ugat"
+      ]
+    },
+    "prevention_measures": {
+      "en": [
+        "Select well-drained sites for cultivation",
+        "Use certified disease-free planting material",
+        "Avoid over-irrigation and waterlogging",
+        "Practice crop rotation with non-host crops",
+        "Remove infected rhizomes and destroy them",
+        "Maintain optimal soil pH (5.5-6.5)"
+      ],
+      "tl": [
+        "Pumili ng lugar na may magandang drainage para sa pagtatanim",
+        "Gumamit ng sertipikadong walang sakit na pananim",
+        "Iwasan ang sobrang pag-dilig at pagbaha",
+        "Mag-practice ng crop rotation kasama ng ibang pananim",
+        "Alisin at sunugin ang mga may sakit na ugat",
+        "Panatilihin ang tamang soil pH (5.5-6.5)"
+      ]
+    },
+    "organic_remedies": [
+      {
+        "name": {
+          "en": "Trichoderma viride",
+          "tl": "Trichoderma viride"
+        },
+        "description": {
+          "en": "Biocontrol fungus that parasitizes pathogenic fungi and promotes plant health.",
+          "tl": "Biocontrol fungus na kumakain sa makasama na fungus at nagpapalakas ng kalusugan ng halaman."
+        },
+        "application": {
+          "en": "Treat seed rhizomes with Trichoderma suspension (10 g/L) for 30 minutes before planting",
+          "tl": "Ibabad ang binhing ugat sa Trichoderma suspension (10 g/L) ng 30 minuto bago itanim"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "timing": {
+          "en": "Before planting and as soil drench monthly",
+          "tl": "Bago magtanim at buhusan ang lupa bawat buwan"
+        }
+      },
+      {
+        "name": {
+          "en": "Pseudomonas fluorescens",
+          "tl": "Pseudomonas fluorescens"
+        },
+        "description": {
+          "en": "Beneficial bacteria that suppress soil-borne pathogens.",
+          "tl": "Mabuting bakterya na sumusupo sa mga sakit na galing sa lupa."
+        },
+        "application": {
+          "en": "Rhizome treatment with 10 g/L suspension for 30 minutes. Soil application at 5 kg/ha with FYM",
+          "tl": "Ibabad ang ugat sa 10 g/L suspension ng 30 minuto. Ilagay sa lupa ang 5 kg/ha kasama ng FYM"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "At planting and 45-60 days after planting",
+          "tl": "Sa pagtatanim at 45-60 araw pagkatapos magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Wood Ash Application",
+          "tl": "Paggamit ng Abo"
+        },
+        "description": {
+          "en": "Alkaline wood ash creates unfavorable conditions for fungal growth.",
+          "tl": "Ang alkaline na abo ay lumilikha ng hindi magandang kondisyon para sa paglaki ng fungus."
+        },
+        "application": {
+          "en": "Dust seed rhizomes with wood ash before planting. Apply 2-3 tons/ha to soil",
+          "tl": "Budburan ng abo ang binhing ugat bago itanim. Maglagay ng 2-3 tonelada/ektarya sa lupa"
+        },
+        "effectiveness": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "cost": {
+          "en": "Very Low",
+          "tl": "Napakababa"
+        },
+        "timing": {
+          "en": "At planting",
+          "tl": "Sa pagtatanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Neem Oil Spray",
+          "tl": "Neem Oil Spray"
+        },
+        "description": {
+          "en": "Antifungal properties of neem help control fungal infections.",
+          "tl": "Ang antifungal properties ng neem ay tumutulong kontrolin ang fungal infection."
+        },
+        "application": {
+          "en": "Spray 3-5% neem oil solution on foliage and as soil drench",
+          "tl": "Mag-spray ng 3-5% neem oil solution sa dahon at buhusan ang lupa"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Fortnightly applications during growing season",
+          "tl": "Bawat dalawang linggo habang lumalaki ang halaman"
+        }
+      },
+      {
+        "name": {
+          "en": "Improved Drainage",
+          "tl": "Pagpapabuti ng Drainage"
+        },
+        "description": {
+          "en": "Proper drainage prevents waterlogging, reducing fungal infection risk.",
+          "tl": "Ang tamang drainage ay pumipigil sa pagbaha, na binabawasan ang panganib ng fungal infection."
+        },
+        "application": {
+          "en": "Plant on raised beds (15-20 cm height). Install drainage channels.",
+          "tl": "Magtanim sa mataas na gulayan (15-20 cm taas). Gumawa ng drainage channels."
+        },
+        "effectiveness": {
+          "en": "High for prevention",
+          "tl": "Mataas para sa pag-iwas"
+        },
+        "cost": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "timing": {
+          "en": "Before planting",
+          "tl": "Bago magtanim"
+        }
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": {
+          "en": "Mancozeb",
+          "tl": "Mancozeb"
+        },
+        "description": {
+          "en": "Contact fungicide effective against Pythium and other fungi.",
+          "tl": "Contact fungicide na epektibo laban sa Pythium at iba pang fungus."
+        },
+        "application": {
+          "en": "Treat rhizomes with 0.3% mancozeb (3 g/L) for 30 min. Soil drench at 0.25%",
+          "tl": "Ibabad ang ugat sa 0.3% mancozeb (3 g/L) ng 30 minuto. Buhusan ang lupa ng 0.25%"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Before planting and as preventive spray every 15 days",
+          "tl": "Bago magtanim at mag-spray bawat 15 araw para sa pag-iwas"
+        },
+        "safety_precautions": {
+          "en": "Wear mask and gloves. Maintain 15-day pre-harvest interval.",
+          "tl": "Magsuot ng mask at gloves. Sundin ang 15-araw na interval bago mag-ani."
+        }
+      },
+      {
+        "name": {
+          "en": "Metalaxyl + Mancozeb",
+          "tl": "Metalaxyl + Mancozeb"
+        },
+        "description": {
+          "en": "Systemic and contact fungicide combination for better control.",
+          "tl": "Kombinasyon ng systemic at contact fungicide para sa mas mahusay na kontrol."
+        },
+        "application": {
+          "en": "Rhizome treatment: 2.5 g/L for 20-30 min. Foliar spray: 2 g/L every 10-15 days",
+          "tl": "Ibabad ang ugat: 2.5 g/L ng 20-30 minuto. Mag-spray sa dahon: 2 g/L bawat 10-15 araw"
+        },
+        "effectiveness": {
+          "en": "Very High",
+          "tl": "Napakataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "At planting and during rainy season",
+          "tl": "Sa pagtatanim at sa panahon ng tag-ulan"
+        },
+        "safety_precautions": {
+          "en": "Use protective equipment. Follow label instructions strictly.",
+          "tl": "Gumamit ng protective equipment. Sundin ng tama ang instructions sa label."
+        }
+      },
+      {
+        "name": {
+          "en": "Bordeaux Mixture",
+          "tl": "Bordeaux Mixture"
+        },
+        "description": {
+          "en": "Traditional copper-based fungicide for protective action.",
+          "tl": "Tradisyonal na copper-based fungicide para sa proteksyon."
+        },
+        "application": {
+          "en": "Spray 1% Bordeaux mixture (10 g copper sulfate + 10 g lime per liter)",
+          "tl": "Mag-spray ng 1% Bordeaux mixture (10 g copper sulfate + 10 g apog bawat litro)"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "Monthly applications starting from 2 months after planting",
+          "tl": "Bawat buwan simula sa 2 buwan pagkatapos magtanim"
+        },
+        "safety_precautions": {
+          "en": "Prepare fresh mixture. Avoid during hot sunny days.",
+          "tl": "Gumawa ng sariwang mixture. Iwasan sa mainit at maaraw na araw."
+        }
+      },
+      {
+        "name": {
+          "en": "Captan",
+          "tl": "Captan"
+        },
+        "description": {
+          "en": "Broad-spectrum protectant fungicide.",
+          "tl": "Broad-spectrum protectant fungicide."
+        },
+        "application": {
+          "en": "Dust rhizomes with 2% captan powder or dip in 0.2% suspension",
+          "tl": "Budburan ang ugat ng 2% captan powder o ibabad sa 0.2% suspension"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Before planting",
+          "tl": "Bago magtanim"
+        },
+        "safety_precautions": {
+          "en": "Avoid inhalation. Wear protective gear during application.",
+          "tl": "Iwasan ang paglanghap. Magsuot ng protective gear habang ginagamit."
+        }
+      }
+    ]
+  },
+
+  "leaf_spot": {
+    "disease_name": {
+      "en": "Leaf Spot Disease",
+      "tl": "Sakit na Batik sa Dahon"
+    },
+    "disease_class": "leaf_spot",
+    "description": {
+      "en": "Leaf spot is caused by Phyllosticta zingiberi, creating small brown spots with yellow halos on leaves, reducing photosynthesis.",
+      "tl": "Ang batik sa dahon ay dulot ng Phyllosticta zingiberi, na lumilikha ng maliliit na kayumangging batik na may dilaw na paligid sa mga dahon, na binabawasan ang photosynthesis."
+    },
+    "symptoms": {
+      "en": [
+        "Small brown spots on leaves",
+        "Yellow halos around spots",
+        "Spots may coalesce forming larger patches",
+        "Premature leaf drop in severe cases",
+        "Reduced plant vigor and yield"
+      ],
+      "tl": [
+        "Maliliit na kayumangging batik sa mga dahon",
+        "Dilaw na paligid sa mga batik",
+        "Ang mga batik ay maaaring magsama at lumaki",
+        "Maagang paglagas ng dahon sa malalang kaso",
+        "Pagbaba ng lakas at ani ng halaman"
+      ]
+    },
+    "prevention_measures": {
+      "en": [
+        "Plant in well-ventilated areas with good air circulation",
+        "Avoid overhead irrigation; use drip irrigation",
+        "Maintain proper plant spacing (20-25 cm)",
+        "Remove weeds regularly",
+        "Avoid working in wet fields",
+        "Use disease-free planting material"
+      ],
+      "tl": [
+        "Magtanim sa lugar na may magandang bentilasyon at daloy ng hangin",
+        "Iwasan ang overhead irrigation; gumamit ng drip irrigation",
+        "Panatilihin ang tamang espasyo ng halaman (20-25 cm)",
+        "Alisin ang mga damo ng regular",
+        "Iwasan ang paggawa sa basang bukid",
+        "Gumamit ng walang sakit na pananim"
+      ]
+    },
+    "organic_remedies": [
+      {
+        "name": {
+          "en": "Garlic Extract Spray",
+          "tl": "Garlic Extract Spray"
+        },
+        "description": {
+          "en": "Natural antifungal properties help control leaf spot.",
+          "tl": "Ang natural na antifungal properties ay tumutulong kontrolin ang batik sa dahon."
+        },
+        "application": {
+          "en": "Blend 100g garlic with 1L water, strain, dilute 1:10 and spray on foliage",
+          "tl": "Haluin ang 100g bawang sa 1L tubig, salain, dilute 1:10 at i-spray sa dahon"
+        },
+        "effectiveness": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "cost": {
+          "en": "Very Low",
+          "tl": "Napakababa"
+        },
+        "timing": {
+          "en": "Weekly applications at first sign of disease",
+          "tl": "Bawat linggo sa unang palatandaan ng sakit"
+        }
+      },
+      {
+        "name": {
+          "en": "Baking Soda Solution",
+          "tl": "Baking Soda Solution"
+        },
+        "description": {
+          "en": "Alkaline spray creates unfavorable conditions for fungal growth.",
+          "tl": "Ang alkaline spray ay lumilikha ng hindi magandang kondisyon para sa paglaki ng fungus."
+        },
+        "application": {
+          "en": "Mix 5g baking soda + 5ml oil + 1L water. Spray on both sides of leaves",
+          "tl": "Haluin ang 5g baking soda + 5ml langis + 1L tubig. I-spray sa magkabilang gilid ng dahon"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Very Low",
+          "tl": "Napakababa"
+        },
+        "timing": {
+          "en": "Every 7-10 days as preventive measure",
+          "tl": "Bawat 7-10 araw bilang pag-iwas"
+        }
+      },
+      {
+        "name": {
+          "en": "Neem Oil + Soap Spray",
+          "tl": "Neem Oil + Sabon Spray"
+        },
+        "description": {
+          "en": "Antifungal neem oil with spreading agent for better coverage.",
+          "tl": "Antifungal neem oil na may spreading agent para sa mas magandang coverage."
+        },
+        "application": {
+          "en": "Mix 10ml neem oil + 5ml liquid soap in 1L water. Spray thoroughly",
+          "tl": "Haluin ang 10ml neem oil + 5ml liquid sabon sa 1L tubig. I-spray ng maayos"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "Fortnightly sprays starting from 45 days after planting",
+          "tl": "Bawat dalawang linggo simula sa 45 araw pagkatapos magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Copper-based Organic Fungicide",
+          "tl": "Organikong Copper Fungicide"
+        },
+        "description": {
+          "en": "Organic copper formulations provide protective action.",
+          "tl": "Ang organikong copper formulations ay nagbibigay ng proteksyon."
+        },
+        "application": {
+          "en": "Follow manufacturer's instructions for organic copper products",
+          "tl": "Sundin ang instructions ng manufacturer para sa organikong copper products"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Every 10-15 days during humid weather",
+          "tl": "Bawat 10-15 araw sa mahalumigmig na panahon"
+        }
+      },
+      {
+        "name": {
+          "en": "Proper Sanitation",
+          "tl": "Tamang Kalinisan"
+        },
+        "description": {
+          "en": "Remove infected leaves to reduce disease spread.",
+          "tl": "Alisin ang may sakit na dahon para bawasan ang pagkalat ng sakit."
+        },
+        "application": {
+          "en": "Remove and destroy spotted leaves. Keep field clean of debris",
+          "tl": "Alisin at sunugin ang mga dahong may batik. Panatilihing malinis ang bukid"
+        },
+        "effectiveness": {
+          "en": "Medium for management",
+          "tl": "Katamtaman para sa pag-manage"
+        },
+        "cost": {
+          "en": "Low (labor cost)",
+          "tl": "Mababa (gastos sa paggawa)"
+        },
+        "timing": {
+          "en": "Regular monitoring and removal",
+          "tl": "Regular na pagmamasid at pag-alis"
+        }
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": {
+          "en": "Carbendazim",
+          "tl": "Carbendazim"
+        },
+        "description": {
+          "en": "Systemic fungicide effective against leaf spot pathogens.",
+          "tl": "Systemic fungicide na epektibo laban sa leaf spot pathogens."
+        },
+        "application": {
+          "en": "Spray 0.1% carbendazim (1 g/L) solution on foliage",
+          "tl": "Mag-spray ng 0.1% carbendazim (1 g/L) solution sa dahon"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "At first appearance, repeat every 15 days",
+          "tl": "Sa unang paglitaw, ulitin bawat 15 araw"
+        },
+        "safety_precautions": {
+          "en": "Wear protective clothing. Observe 15-day pre-harvest interval.",
+          "tl": "Magsuot ng protective clothing. Sundin ang 15-araw na interval bago mag-ani."
+        }
+      },
+      {
+        "name": {
+          "en": "Mancozeb",
+          "tl": "Mancozeb"
+        },
+        "description": {
+          "en": "Broad-spectrum protective fungicide.",
+          "tl": "Broad-spectrum protective fungicide."
+        },
+        "application": {
+          "en": "Spray 0.25% mancozeb (2.5 g/L) solution covering all leaf surfaces",
+          "tl": "Mag-spray ng 0.25% mancozeb (2.5 g/L) solution sa lahat ng ibabaw ng dahon"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "timing": {
+          "en": "Preventive sprays every 10-15 days during rainy season",
+          "tl": "Pag-spray para sa pag-iwas bawat 10-15 araw sa tag-ulan"
+        },
+        "safety_precautions": {
+          "en": "Use mask and gloves. Avoid spray drift.",
+          "tl": "Gumamit ng mask at gloves. Iwasan ang spray drift."
+        }
+      },
+      {
+        "name": {
+          "en": "Propiconazole",
+          "tl": "Propiconazole"
+        },
+        "description": {
+          "en": "Systemic triazole fungicide with curative action.",
+          "tl": "Systemic triazole fungicide na may curative action."
+        },
+        "application": {
+          "en": "Spray 0.1% (1 ml/L) propiconazole solution",
+          "tl": "Mag-spray ng 0.1% (1 ml/L) propiconazole solution"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "At disease initiation, repeat after 20-25 days",
+          "tl": "Sa simula ng sakit, ulitin pagkatapos ng 20-25 araw"
+        },
+        "safety_precautions": {
+          "en": "Highly toxic. Use full protective gear. Follow label strictly.",
+          "tl": "Lubhang nakakalason. Gumamit ng full protective gear. Sundin ng tama ang label."
+        }
+      },
+      {
+        "name": {
+          "en": "Chlorothalonil",
+          "tl": "Chlorothalonil"
+        },
+        "description": {
+          "en": "Broad-spectrum protectant fungicide.",
+          "tl": "Broad-spectrum protectant fungicide."
+        },
+        "application": {
+          "en": "Spray 0.2% chlorothalonil (2 g/L) solution",
+          "tl": "Mag-spray ng 0.2% chlorothalonil (2 g/L) solution"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Preventive application every 15 days",
+          "tl": "Pag-gamit para sa pag-iwas bawat 15 araw"
+        },
+        "safety_precautions": {
+          "en": "Avoid contact with skin. Maintain pre-harvest interval.",
+          "tl": "Iwasan ang contact sa balat. Sundin ang pre-harvest interval."
+        }
+      }
+    ]
+  },
+
+  "soft_rot": {
+    "disease_name": {
+      "en": "Soft Rot (Bacterial)",
+      "tl": "Malambot na Bulok (Bacterial)"
+    },
+    "disease_class": "soft_rot",
+    "description": {
+      "en": "Soft rot is primarily caused by Erwinia species, leading to rapid breakdown of plant tissues with characteristic foul odor.",
+      "tl": "Ang malambot na bulok ay pangunahing dulot ng Erwinia species, na nagiging sanhi ng mabilis na pagkasira ng plant tissues na may mabahong amoy."
+    },
+    "symptoms": {
+      "en": [
+        "Water-soaked lesions on pseudostem",
+        "Soft, mushy decay of tissues",
+        "Strong foul odor from infected areas",
+        "Yellowing and collapse of leaves",
+        "Bacterial ooze from infected tissues"
+      ],
+      "tl": [
+        "Basang-basa na sugat sa pseudostem",
+        "Malambot at malagkit na pagkabulok ng tissues",
+        "Malakas na mabahong amoy mula sa apektadong parte",
+        "Paninilaw at pagbagsak ng mga dahon",
+        "Bacterial ooze mula sa may sakit na tissues"
+      ]
+    },
+    "prevention_measures": {
+      "en": [
+        "Plant in well-drained raised beds",
+        "Avoid mechanical injuries to plants",
+        "Use disease-free, healthy rhizomes",
+        "Maintain field sanitation",
+        "Remove and burn infected plants",
+        "Sterilize tools between plants",
+        "Avoid excess nitrogen fertilization"
+      ],
+      "tl": [
+        "Magtanim sa mataas na gulayan na may magandang drainage",
+        "Iwasan ang pagka-sugat ng halaman",
+        "Gumamit ng malusog at walang sakit na ugat",
+        "Panatilihing malinis ang bukid",
+        "Alisin at sunugin ang may sakit na halaman",
+        "I-sterilize ang mga kasangkapan pagkatapos gamitin",
+        "Iwasan ang sobrang nitrogen fertilization"
+      ]
+    },
+    "organic_remedies": [
+      {
+        "name": {
+          "en": "Bacillus subtilis Application",
+          "tl": "Paggamit ng Bacillus subtilis"
+        },
+        "description": {
+          "en": "Beneficial bacteria that suppress soft rot pathogens.",
+          "tl": "Mabuting bakterya na sumusupo sa soft rot pathogens."
+        },
+        "application": {
+          "en": "Spray 10 g/L Bacillus subtilis solution on plants and soil drench",
+          "tl": "Mag-spray ng 10 g/L Bacillus subtilis solution sa halaman at buhusan ang lupa"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Preventive applications every 15 days",
+          "tl": "Pag-gamit para sa pag-iwas bawat 15 araw"
+        }
+      },
+      {
+        "name": {
+          "en": "Hydrogen Peroxide Treatment",
+          "tl": "Hydrogen Peroxide Treatment"
+        },
+        "description": {
+          "en": "Oxidizing agent that kills bacteria on contact.",
+          "tl": "Oxidizing agent na pumapatay ng bakterya sa contact."
+        },
+        "application": {
+          "en": "Spray 3% hydrogen peroxide solution diluted 1:10 with water",
+          "tl": "Mag-spray ng 3% hydrogen peroxide solution na diluted 1:10 sa tubig"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "At first sign of infection, repeat every 5-7 days",
+          "tl": "Sa unang palatandaan ng sakit, ulitin bawat 5-7 araw"
+        }
+      },
+      {
+        "name": {
+          "en": "Cinnamon Powder Dusting",
+          "tl": "Pagbudbod ng Pulbos ng Kanela"
+        },
+        "description": {
+          "en": "Natural antibacterial properties help prevent wound infection.",
+          "tl": "Ang natural na antibacterial properties ay tumutulong pigilan ang infection sa sugat."
+        },
+        "application": {
+          "en": "Dust cinnamon powder on wounds and cut surfaces during harvesting",
+          "tl": "Budburan ng pulbos ng kanela ang mga sugat at pinutol na bahagi habang nag-aani"
+        },
+        "effectiveness": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "After any mechanical injury or during harvest",
+          "tl": "Pagkatapos ng anumang pinsala o habang nag-aani"
+        }
+      },
+      {
+        "name": {
+          "en": "Mustard Cake Extract",
+          "tl": "Mustard Cake Extract"
+        },
+        "description": {
+          "en": "Contains compounds with antibacterial activity.",
+          "tl": "May mga compounds na may antibacterial activity."
+        },
+        "application": {
+          "en": "Soak 1 kg mustard cake in 10L water for 24h, filter and spray",
+          "tl": "Ibabad ang 1 kg mustard cake sa 10L tubig ng 24 oras, salain at i-spray"
+        },
+        "effectiveness": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "cost": {
+          "en": "Very Low",
+          "tl": "Napakababa"
+        },
+        "timing": {
+          "en": "Weekly applications as preventive measure",
+          "tl": "Bawat linggong pag-gamit bilang pag-iwas"
+        }
+      },
+      {
+        "name": {
+          "en": "Improved Cultivation Practices",
+          "tl": "Pagpapabuti ng Pagsasaka"
+        },
+        "description": {
+          "en": "Cultural methods to reduce infection risk.",
+          "tl": "Mga paraan ng pagsasaka para bawasan ang panganib ng infection."
+        },
+        "application": {
+          "en": "Avoid injuries, improve drainage, remove infected plants immediately",
+          "tl": "Iwasan ang pinsala, pagbutihin ang drainage, alisin agad ang may sakit na halaman"
+        },
+        "effectiveness": {
+          "en": "High for prevention",
+          "tl": "Mataas para sa pag-iwas"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "Throughout growing season",
+          "tl": "Sa buong panahon ng paglaki"
+        }
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": {
+          "en": "Streptocycline + Copper Oxychloride",
+          "tl": "Streptocycline + Copper Oxychloride"
+        },
+        "description": {
+          "en": "Combination of antibiotic and bactericide for enhanced control.",
+          "tl": "Kombinasyon ng antibiotic at bactericide para sa mas mahusay na kontrol."
+        },
+        "application": {
+          "en": "Mix streptocycline (100 ppm) with copper oxychloride (0.3%). Spray and soil drench",
+          "tl": "Haluin ang streptocycline (100 ppm) sa copper oxychloride (0.3%). Mag-spray at buhusan ang lupa"
+        },
+        "effectiveness": {
+          "en": "Very High",
+          "tl": "Napakataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "At first symptoms, repeat every 10 days",
+          "tl": "Sa unang sintomas, ulitin bawat 10 araw"
+        },
+        "safety_precautions": {
+          "en": "Wear protective gear. Follow resistance management practices.",
+          "tl": "Magsuot ng protective gear. Sundin ang resistance management practices."
+        }
+      },
+      {
+        "name": {
+          "en": "Copper Hydroxide",
+          "tl": "Copper Hydroxide"
+        },
+        "description": {
+          "en": "Fixed copper bactericide with good residual activity.",
+          "tl": "Fixed copper bactericide na may magandang residual activity."
+        },
+        "application": {
+          "en": "Spray 0.3% copper hydroxide (3 g/L) solution",
+          "tl": "Mag-spray ng 0.3% copper hydroxide (3 g/L) solution"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Preventive sprays every 15 days during wet season",
+          "tl": "Pag-spray para sa pag-iwas bawat 15 araw sa basang panahon"
+        },
+        "safety_precautions": {
+          "en": "Avoid phytotoxicity by not spraying in very hot weather.",
+          "tl": "Iwasan ang phytotoxicity sa pag-iwas ng pag-spray sa sobrang init."
+        }
+      },
+      {
+        "name": {
+          "en": "Tetracycline",
+          "tl": "Tetracycline"
+        },
+        "description": {
+          "en": "Antibiotic effective against gram-positive and gram-negative bacteria.",
+          "tl": "Antibiotic na epektibo laban sa gram-positive at gram-negative bacteria."
+        },
+        "application": {
+          "en": "Spray 500 ppm tetracycline solution (0.5 g/L)",
+          "tl": "Mag-spray ng 500 ppm tetracycline solution (0.5 g/L)"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "At infection onset, repeat every 7-10 days",
+          "tl": "Sa simula ng infection, ulitin bawat 7-10 araw"
+        },
+        "safety_precautions": {
+          "en": "Use as last resort. Observe proper withdrawal period.",
+          "tl": "Gamitin bilang huling paraan. Sundin ang tamang withdrawal period."
+        }
+      }
+    ]
+  },
+
+  "yellow_disease": {
+    "disease_name": {
+      "en": "Yellow Disease (Fusarium Wilt)",
+      "tl": "Sakit na Paninilaw (Fusarium Wilt)"
+    },
+    "disease_class": "yellow_disease",
+    "description": {
+      "en": "Yellow disease is caused by Fusarium oxysporum, a soil-borne fungus that causes vascular wilt and yellowing of leaves.",
+      "tl": "Ang sakit na paninilaw ay dulot ng Fusarium oxysporum, isang fungus sa lupa na nagiging sanhi ng vascular wilt at paninilaw ng mga dahon."
+    },
+    "symptoms": {
+      "en": [
+        "Yellowing of lower leaves progressing upward",
+        "Drooping and wilting of leaves",
+        "Browning of vascular tissue",
+        "Stunted growth",
+        "Plant death in severe cases"
+      ],
+      "tl": [
+        "Paninilaw ng mga ibabang dahon na umaangat pataas",
+        "Paglaylay at paglanta ng mga dahon",
+        "Pagka-kayumanggi ng vascular tissue",
+        "Pagka-pandak ng paglaki",
+        "Pagkamatay ng halaman sa malalang kaso"
+      ]
+    },
+    "prevention_measures": {
+      "en": [
+        "Use resistant or tolerant varieties",
+        "Practice 3-4 year crop rotation",
+        "Use disease-free seed rhizomes",
+        "Maintain proper drainage",
+        "Avoid infected field for cultivation",
+        "Remove and destroy infected plants",
+        "Optimize soil pH (6.0-6.5)"
+      ],
+      "tl": [
+        "Gumamit ng matitigas o tolerant na uri",
+        "Mag-practice ng 3-4 taon na crop rotation",
+        "Gumamit ng walang sakit na binhing ugat",
+        "Panatilihin ang tamang drainage",
+        "Iwasan ang apektadong bukid para sa pagtatanim",
+        "Alisin at sunugin ang may sakit na halaman",
+        "I-optimize ang soil pH (6.0-6.5)"
+      ]
+    },
+    "organic_remedies": [
+      {
+        "name": {
+          "en": "Trichoderma harzianum",
+          "tl": "Trichoderma harzianum"
+        },
+        "description": {
+          "en": "Aggressive biocontrol fungus effective against Fusarium.",
+          "tl": "Agresibong biocontrol fungus na epektibo laban sa Fusarium."
+        },
+        "application": {
+          "en": "Treat rhizomes with 10 g/L suspension. Apply 5 kg/ha mixed with FYM",
+          "tl": "Ibabad ang ugat sa 10 g/L suspension. Maglagay ng 5 kg/ha kasama ng FYM"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Before planting and at 45, 90 days after planting",
+          "tl": "Bago magtanim at sa 45, 90 araw pagkatapos magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Aspergillus niger",
+          "tl": "Aspergillus niger"
+        },
+        "description": {
+          "en": "Biocontrol agent that produces antifungal metabolites.",
+          "tl": "Biocontrol agent na gumagawa ng antifungal metabolites."
+        },
+        "application": {
+          "en": "Apply 5 kg/ha Aspergillus niger formulation with organic matter",
+          "tl": "Maglagay ng 5 kg/ha Aspergillus niger formulation kasama ng organic matter"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Soil application before planting",
+          "tl": "Ilagay sa lupa bago magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Farmyard Manure (FYM) + Neem Cake",
+          "tl": "Pataba mula sa Hayop + Neem Cake"
+        },
+        "description": {
+          "en": "Improves soil health and suppresses pathogenic fungi.",
+          "tl": "Nagpapabuti ng kalusugan ng lupa at sumusupo sa makasama na fungus."
+        },
+        "application": {
+          "en": "Apply 20-25 tons FYM + 1 ton neem cake per hectare",
+          "tl": "Maglagay ng 20-25 tonelada FYM + 1 tonelada neem cake bawat ektarya"
+        },
+        "effectiveness": {
+          "en": "Medium for prevention",
+          "tl": "Katamtaman para sa pag-iwas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "2-3 weeks before planting",
+          "tl": "2-3 linggo bago magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Turmeric Extract",
+          "tl": "Luyang Dilaw Extract"
+        },
+        "description": {
+          "en": "Curcumin has antifungal properties against Fusarium.",
+          "tl": "Ang curcumin ay may antifungal properties laban sa Fusarium."
+        },
+        "application": {
+          "en": "Soak 100g turmeric powder in 1L water overnight, filter, dilute 1:5 and spray",
+          "tl": "Ibabad ang 100g luyang dilaw powder sa 1L tubig magdamag, salain, dilute 1:5 at i-spray"
+        },
+        "effectiveness": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "Fortnightly applications",
+          "tl": "Bawat dalawang linggo"
+        }
+      },
+      {
+        "name": {
+          "en": "Soil Solarization",
+          "tl": "Paggamit ng Araw sa Lupa"
+        },
+        "description": {
+          "en": "Solar heat reduces Fusarium population in soil.",
+          "tl": "Ang init ng araw ay binabawasan ang Fusarium population sa lupa."
+        },
+        "application": {
+          "en": "Cover moist soil with transparent plastic for 6 weeks in summer",
+          "tl": "Takpan ang basang lupa ng malinaw na plastic ng 6 linggo sa tag-init"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "2 months before planting",
+          "tl": "2 buwan bago magtanim"
+        }
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": {
+          "en": "Carbendazim",
+          "tl": "Carbendazim"
+        },
+        "description": {
+          "en": "Systemic benzimidazole fungicide effective against Fusarium.",
+          "tl": "Systemic benzimidazole fungicide na epektibo laban sa Fusarium."
+        },
+        "application": {
+          "en": "Rhizome treatment: 0.2% (2 g/L) for 30 min. Soil drench: 0.1%",
+          "tl": "Ibabad ang ugat: 0.2% (2 g/L) ng 30 minuto. Buhusan ang lupa: 0.1%"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Before planting and as drench every 30 days",
+          "tl": "Bago magtanim at buhusan bawat 30 araw"
+        },
+        "safety_precautions": {
+          "en": "Wear gloves and mask. Avoid contaminating water sources.",
+          "tl": "Magsuot ng gloves at mask. Iwasan ang kontaminasyon ng tubigan."
+        }
+      },
+      {
+        "name": {
+          "en": "Thiophanate Methyl",
+          "tl": "Thiophanate Methyl"
+        },
+        "description": {
+          "en": "Systemic fungicide with preventive and curative action.",
+          "tl": "Systemic fungicide na may preventive at curative action."
+        },
+        "application": {
+          "en": "Spray 0.1% (1 g/L) solution or soil drench at 2 g/L",
+          "tl": "Mag-spray ng 0.1% (1 g/L) solution o buhusan ang lupa ng 2 g/L"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "At first symptoms, repeat every 20-25 days",
+          "tl": "Sa unang sintomas, ulitin bawat 20-25 araw"
+        },
+        "safety_precautions": {
+          "en": "Use protective equipment. Observe pre-harvest interval.",
+          "tl": "Gumamit ng protective equipment. Sundin ang pre-harvest interval."
+        }
+      },
+      {
+        "name": {
+          "en": "Propiconazole",
+          "tl": "Propiconazole"
+        },
+        "description": {
+          "en": "Triazole fungicide with systemic movement.",
+          "tl": "Triazole fungicide na may systemic movement."
+        },
+        "application": {
+          "en": "Soil drench with 0.1% (1 ml/L) solution around plant base",
+          "tl": "Buhusan ang lupa ng 0.1% (1 ml/L) solution sa paligid ng base ng halaman"
+        },
+        "effectiveness": {
+          "en": "Very High",
+          "tl": "Napakataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "Preventive application at 60 and 120 days after planting",
+          "tl": "Pag-gamit para sa pag-iwas sa 60 at 120 araw pagkatapos magtanim"
+        },
+        "safety_precautions": {
+          "en": "Highly toxic. Follow label instructions strictly.",
+          "tl": "Lubhang nakakalason. Sundin ng tama ang label instructions."
+        }
+      },
+      {
+        "name": {
+          "en": "Tebuconazole",
+          "tl": "Tebuconazole"
+        },
+        "description": {
+          "en": "Systemic triazole fungicide for Fusarium control.",
+          "tl": "Systemic triazole fungicide para sa kontrol ng Fusarium."
+        },
+        "application": {
+          "en": "Rhizome treatment: 0.1% (1 ml/L) for 30 min. Foliar spray: 0.05%",
+          "tl": "Ibabad ang ugat: 0.1% (1 ml/L) ng 30 minuto. Mag-spray sa dahon: 0.05%"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "Before planting and as foliar spray every 30 days",
+          "tl": "Bago magtanim at mag-spray sa dahon bawat 30 araw"
+        },
+        "safety_precautions": {
+          "en": "Use protective gear. Avoid spray drift.",
+          "tl": "Gumamit ng protective gear. Iwasan ang spray drift."
+        }
+      }
+    ]
+  },
+
+  "root_knot_nematode": {
+    "disease_name": {
+      "en": "Root Knot Nematode",
+      "tl": "Bukol sa Ugat (Root Knot Nematode)"
+    },
+    "disease_class": "root_knot_nematode",
+    "description": {
+      "en": "Root knot nematode (Meloidogyne spp.) attacks roots forming galls, reducing nutrient and water uptake, causing stunting and yield loss.",
+      "tl": "Ang bukol sa ugat (Meloidogyne spp.) ay umaatake sa mga ugat at bumubuo ng bukol, na binabawasan ang pagkuha ng sustansya at tubig, na nagiging sanhi ng pagka-pandak at pagbaba ng ani."
+    },
+    "symptoms": {
+      "en": [
+        "Galls or knots on roots and rhizomes",
+        "Stunted and yellowed plants",
+        "Wilting despite adequate moisture",
+        "Reduced rhizome size and quality",
+        "Poor tillering"
+      ],
+      "tl": [
+        "Bukol o buhol sa mga ugat",
+        "Pandak at nanilaw na halaman",
+        "Paglanta kahit sapat ang tubig",
+        "Pagliit ng ugat at pagbaba ng kalidad",
+        "Kakaunting sanga"
+      ]
+    },
+    "prevention_measures": {
+      "en": [
+        "Use certified nematode-free planting material",
+        "Practice crop rotation with non-host crops (cereals, pulses)",
+        "Hot water treatment of rhizomes (51°C for 10 minutes)",
+        "Deep summer ploughing to expose nematodes to sun",
+        "Avoid movement of soil/equipment from infected fields",
+        "Maintain field sanitation",
+        "Plant tolerant varieties if available"
+      ],
+      "tl": [
+        "Gumamit ng sertipikadong walang nematode na pananim",
+        "Mag-practice ng crop rotation kasama ng ibang pananim (cereal, pulses)",
+        "Hot water treatment ng ugat (51°C ng 10 minuto)",
+        "Malalim na pag-araro sa tag-init para mailantad ang nematode sa araw",
+        "Iwasan ang paglipat ng lupa/kagamitan mula sa apektadong bukid",
+        "Panatilihing malinis ang bukid",
+        "Magtanim ng tolerant na uri kung mayroon"
+      ]
+    },
+    "organic_remedies": [
+      {
+        "name": {
+          "en": "Paecilomyces lilacinus",
+          "tl": "Paecilomyces lilacinus"
+        },
+        "description": {
+          "en": "Nematophagous fungus that parasitizes nematode eggs.",
+          "tl": "Nematophagous fungus na kumakain sa itlog ng nematode."
+        },
+        "application": {
+          "en": "Apply 5 kg/ha Paecilomyces formulation mixed with FYM or compost",
+          "tl": "Maglagay ng 5 kg/ha Paecilomyces formulation na halo sa FYM o compost"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "At planting and 60 days after planting",
+          "tl": "Sa pagtatanim at 60 araw pagkatapos magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Neem Cake Application",
+          "tl": "Paggamit ng Neem Cake"
+        },
+        "description": {
+          "en": "Releases compounds toxic to nematodes and improves soil health.",
+          "tl": "Naglalabas ng mga compounds na nakakalason sa nematode at nagpapabuti ng kalusugan ng lupa."
+        },
+        "application": {
+          "en": "Apply 1-2 tons neem cake per hectare, incorporate into soil",
+          "tl": "Maglagay ng 1-2 tonelada neem cake bawat ektarya, haluin sa lupa"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "3 weeks before planting",
+          "tl": "3 linggo bago magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Marigold Trap Cropping",
+          "tl": "Marigold Trap Cropping"
+        },
+        "description": {
+          "en": "Marigold attracts nematodes but doesn't allow reproduction.",
+          "tl": "Ang marigold ay umaakitin ang nematode pero hindi pinapayagan na magparami."
+        },
+        "application": {
+          "en": "Plant African marigold as border crop or intercrop every 4-5 rows",
+          "tl": "Magtanim ng African marigold bilang border crop o intercrop bawat 4-5 hanay"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "Along with ginger or as preceding crop",
+          "tl": "Kasama ng luya o bilang unang pananim"
+        }
+      },
+      {
+        "name": {
+          "en": "Pseudomonas fluorescens",
+          "tl": "Pseudomonas fluorescens"
+        },
+        "description": {
+          "en": "Produces toxic compounds and competes with nematodes.",
+          "tl": "Gumagawa ng nakakalasong compounds at nakikipag-compete sa nematode."
+        },
+        "application": {
+          "en": "Rhizome treatment: 10 g/L for 30 min. Soil application: 5 kg/ha with FYM",
+          "tl": "Ibabad ang ugat: 10 g/L ng 30 minuto. Ilagay sa lupa: 5 kg/ha kasama ng FYM"
+        },
+        "effectiveness": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Before planting and at 45 days after planting",
+          "tl": "Bago magtanim at sa 45 araw pagkatapos magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Organic Matter Amendment",
+          "tl": "Pagdagdag ng Organic Matter"
+        },
+        "description": {
+          "en": "High organic matter supports beneficial organisms that suppress nematodes.",
+          "tl": "Ang mataas na organic matter ay sumusuporta sa mabuting organisms na sumusupo sa nematode."
+        },
+        "application": {
+          "en": "Apply 25-30 tons well-decomposed FYM or compost per hectare",
+          "tl": "Maglagay ng 25-30 tonelada ng mabuting nabubulok na FYM o compost bawat ektarya"
+        },
+        "effectiveness": {
+          "en": "Medium for long-term management",
+          "tl": "Katamtaman para sa pangmatagalang pag-manage"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "2-4 weeks before planting",
+          "tl": "2-4 linggo bago magtanim"
+        }
+      },
+      {
+        "name": {
+          "en": "Castor Cake",
+          "tl": "Castor Cake"
+        },
+        "description": {
+          "en": "Contains ricinine, toxic to nematodes.",
+          "tl": "May ricinine na nakakalason sa nematode."
+        },
+        "application": {
+          "en": "Apply 500-750 kg castor cake per hectare, incorporate into soil",
+          "tl": "Maglagay ng 500-750 kg castor cake bawat ektarya, haluin sa lupa"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "timing": {
+          "en": "3 weeks before planting",
+          "tl": "3 linggo bago magtanim"
+        }
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": {
+          "en": "Carbofuran",
+          "tl": "Carbofuran"
+        },
+        "description": {
+          "en": "Systemic nematicide and insecticide granules.",
+          "tl": "Systemic nematicide at insecticide granules."
+        },
+        "application": {
+          "en": "Apply 30-40 kg Carbofuran 3G per hectare at planting, incorporate into soil",
+          "tl": "Maglagay ng 30-40 kg Carbofuran 3G bawat ektarya sa pagtatanim, haluin sa lupa"
+        },
+        "effectiveness": {
+          "en": "Very High",
+          "tl": "Napakataas"
+        },
+        "cost": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "timing": {
+          "en": "At planting time",
+          "tl": "Sa panahon ng pagtatanim"
+        },
+        "safety_precautions": {
+          "en": "Highly toxic. Wear gloves. Do not use bare hands. Being phased out in many countries.",
+          "tl": "Lubhang nakakalason. Magsuot ng gloves. Huwag gumamit ng hubad na kamay. Tinatanggal na sa maraming bansa."
+        }
+      },
+      {
+        "name": {
+          "en": "Phorate",
+          "tl": "Phorate"
+        },
+        "description": {
+          "en": "Organophosphate nematicide with systemic action.",
+          "tl": "Organophosphate nematicide na may systemic action."
+        },
+        "application": {
+          "en": "Apply 10-15 kg Phorate 10G per hectare in furrows before planting",
+          "tl": "Maglagay ng 10-15 kg Phorate 10G bawat ektarya sa mga furrows bago magtanim"
+        },
+        "effectiveness": {
+          "en": "High",
+          "tl": "Mataas"
+        },
+        "cost": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "timing": {
+          "en": "At planting",
+          "tl": "Sa pagtatanim"
+        },
+        "safety_precautions": {
+          "en": "Highly toxic. Use protective equipment. Avoid skin contact. Restricted in many regions.",
+          "tl": "Lubhang nakakalason. Gumamit ng protective equipment. Iwasan ang contact sa balat. Restricted sa maraming lugar."
+        }
+      },
+      {
+        "name": {
+          "en": "Cartap Hydrochloride",
+          "tl": "Cartap Hydrochloride"
+        },
+        "description": {
+          "en": "Nereistoxin analogue with nematicidal activity.",
+          "tl": "Nereistoxin analogue na may nematicidal activity."
+        },
+        "application": {
+          "en": "Apply 10-12 kg Cartap 4G per hectare at planting",
+          "tl": "Maglagay ng 10-12 kg Cartap 4G bawat ektarya sa pagtatanim"
+        },
+        "effectiveness": {
+          "en": "Medium to High",
+          "tl": "Katamtaman hanggang Mataas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "At planting and 60 days after planting",
+          "tl": "Sa pagtatanim at 60 araw pagkatapos magtanim"
+        },
+        "safety_precautions": {
+          "en": "Moderately toxic. Wear protective gear.",
+          "tl": "Katamtamang nakakalason. Magsuot ng protective gear."
+        }
+      },
+      {
+        "name": {
+          "en": "Dazomet",
+          "tl": "Dazomet"
+        },
+        "description": {
+          "en": "Soil fumigant that releases methylisothiocyanate.",
+          "tl": "Soil fumigant na naglalabas ng methylisothiocyanate."
+        },
+        "application": {
+          "en": "Apply 300-400 kg/ha, incorporate 15-20 cm deep, cover with plastic for 2 weeks",
+          "tl": "Maglagay ng 300-400 kg/ha, haluin 15-20 cm na lalim, takpan ng plastic ng 2 linggo"
+        },
+        "effectiveness": {
+          "en": "Very High",
+          "tl": "Napakataas"
+        },
+        "cost": {
+          "en": "Very High",
+          "tl": "Napakataas"
+        },
+        "timing": {
+          "en": "4-6 weeks before planting",
+          "tl": "4-6 linggo bago magtanim"
+        },
+        "safety_precautions": {
+          "en": "Highly toxic gas. Professional application recommended. Clear area of people/animals.",
+          "tl": "Lubhang nakakalasong gas. Inirerekomenda ang professional application. Alisin ang mga tao/hayop sa lugar."
+        }
+      }
+    ]
+  },
+
+  "healthy": {
+    "disease_name": {
+      "en": "Healthy Plant Maintenance",
+      "tl": "Pag-aalaga ng Malusog na Halaman"
+    },
+    "disease_class": "healthy",
+    "description": {
+      "en": "Preventive measures and best practices to maintain healthy ginger plants and prevent disease occurrence.",
+      "tl": "Mga hakbang para sa pag-iwas at pinakamahuhusay na gawi upang mapanatili ang malusog na luya at maiwasan ang sakit."
+    },
+    "symptoms": {
+      "en": [],
+      "tl": []
+    },
+    "prevention_measures": {
+      "en": [
+        "Select well-drained, fertile soil with pH 5.5-6.5",
+        "Use certified disease-free seed rhizomes",
+        "Treat seed rhizomes with biocontrol agents before planting",
+        "Maintain proper plant spacing (20-25 cm)",
+        "Ensure good drainage through raised beds",
+        "Practice crop rotation (3-4 years)",
+        "Apply adequate organic matter",
+        "Mulch to conserve moisture and suppress weeds",
+        "Monitor regularly for pest and disease symptoms",
+        "Maintain field sanitation",
+        "Irrigate properly - avoid waterlogging and drought stress",
+        "Remove and destroy any infected plants immediately",
+        "Avoid working in wet fields to prevent disease spread"
+      ],
+      "tl": [
+        "Pumili ng may magandang drainage at mabunga ng lupa na may pH 5.5-6.5",
+        "Gumamit ng sertipikadong walang sakit na binhing ugat",
+        "Ibabad ang binhing ugat sa biocontrol agents bago itanim",
+        "Panatilihin ang tamang espasyo ng halaman (20-25 cm)",
+        "Siguraduhing may magandang drainage sa pamamagitan ng mataas na gulayan",
+        "Mag-practice ng crop rotation (3-4 taon)",
+        "Maglagay ng sapat na organic matter",
+        "Mag-mulch para mapanatili ang kahalumigmigan at sugpuin ang damo",
+        "Regular na subaybayan ang sintomas ng peste at sakit",
+        "Panatilihing malinis ang bukid",
+        "Mag-dilig ng tama - iwasan ang pagbaha at kakulangan ng tubig",
+        "Alisin at sunugin agad ang anumang may sakit na halaman",
+        "Iwasan ang paggawa sa basang bukid para maiwasan ang pagkalat ng sakit"
+      ]
+    },
+    "organic_remedies": [
+      {
+        "name": {
+          "en": "Balanced Nutrition",
+          "tl": "Balanseng Nutrisyon"
+        },
+        "description": {
+          "en": "Proper nutrition enhances plant immunity and disease resistance.",
+          "tl": "Ang tamang nutrisyon ay nagpapalakas ng immunity ng halaman at paglaban sa sakit."
+        },
+        "application": {
+          "en": "Apply 25-30 tons FYM + 60:50:120 kg NPK per hectare in split doses",
+          "tl": "Maglagay ng 25-30 tonelada FYM + 60:50:120 kg NPK bawat ektarya sa split doses"
+        },
+        "effectiveness": {
+          "en": "High for prevention",
+          "tl": "Mataas para sa pag-iwas"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "FYM before planting, NPK in 3-4 splits during growing season",
+          "tl": "FYM bago magtanim, NPK sa 3-4 na beses habang lumalaki"
+        }
+      },
+      {
+        "name": {
+          "en": "Compost Tea Spray",
+          "tl": "Compost Tea Spray"
+        },
+        "description": {
+          "en": "Beneficial microbes boost plant health and suppress pathogens.",
+          "tl": "Ang mabuting microbes ay nagpapalakas ng kalusugan ng halaman at sumusupo sa pathogens."
+        },
+        "application": {
+          "en": "Brew 1 kg compost in 10L water for 24h, strain and spray",
+          "tl": "Timplahan ang 1 kg compost sa 10L tubig ng 24 oras, salain at i-spray"
+        },
+        "effectiveness": {
+          "en": "Medium for prevention",
+          "tl": "Katamtaman para sa pag-iwas"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "Fortnightly applications throughout growing season",
+          "tl": "Bawat dalawang linggo sa buong panahon ng paglaki"
+        }
+      },
+      {
+        "name": {
+          "en": "Mulching",
+          "tl": "Pag-mulch"
+        },
+        "description": {
+          "en": "Conserves moisture, regulates temperature, and suppresses weeds.",
+          "tl": "Nag-iingat ng kahalumigmigan, nire-regulate ang temperatura, at sumusupo sa damo."
+        },
+        "application": {
+          "en": "Apply 5-7 cm layer of organic mulch (leaves, straw, grass)",
+          "tl": "Maglagay ng 5-7 cm na layer ng organic mulch (dahon, dayami, damo)"
+        },
+        "effectiveness": {
+          "en": "High for overall plant health",
+          "tl": "Mataas para sa pangkalahatang kalusugan ng halaman"
+        },
+        "cost": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "timing": {
+          "en": "After planting and replenish as needed",
+          "tl": "Pagkatapos magtanim at dagdagan kung kailangan"
+        }
+      },
+      {
+        "name": {
+          "en": "Vermiwash Application",
+          "tl": "Paggamit ng Vermiwash"
+        },
+        "description": {
+          "en": "Liquid fertilizer with growth hormones and beneficial microbes.",
+          "tl": "Liquid fertilizer na may growth hormones at mabuting microbes."
+        },
+        "application": {
+          "en": "Dilute vermiwash 1:10 with water, spray on foliage or soil drench",
+          "tl": "I-dilute ang vermiwash 1:10 sa tubig, i-spray sa dahon o buhusan ang lupa"
+        },
+        "effectiveness": {
+          "en": "Medium for plant vigor",
+          "tl": "Katamtaman para sa lakas ng halaman"
+        },
+        "cost": {
+          "en": "Low",
+          "tl": "Mababa"
+        },
+        "timing": {
+          "en": "Every 15 days during vegetative growth",
+          "tl": "Bawat 15 araw habang lumalaki ang dahon"
+        }
+      }
+    ],
+    "chemical_remedies": [
+      {
+        "name": {
+          "en": "Micronutrient Spray",
+          "tl": "Micronutrient Spray"
+        },
+        "description": {
+          "en": "Corrects deficiencies and enhances plant immunity.",
+          "tl": "Inaayos ang kakulangan at nagpapalakas ng immunity ng halaman."
+        },
+        "application": {
+          "en": "Spray multi-micronutrient mixture (Zn, Fe, Mn, B) as per manufacturer's instructions",
+          "tl": "Mag-spray ng multi-micronutrient mixture (Zn, Fe, Mn, B) ayon sa instructions ng manufacturer"
+        },
+        "effectiveness": {
+          "en": "Medium for prevention",
+          "tl": "Katamtaman para sa pag-iwas"
+        },
+        "cost": {
+          "en": "Low to Medium",
+          "tl": "Mababa hanggang Katamtaman"
+        },
+        "timing": {
+          "en": "3-4 sprays at 30-day intervals starting from 45 days after planting",
+          "tl": "3-4 na pag-spray bawat 30 araw simula sa 45 araw pagkatapos magtanim"
+        },
+        "safety_precautions": {
+          "en": "Follow recommended doses. Over-application can cause toxicity.",
+          "tl": "Sundin ang inirerekomendang dosis. Ang sobrang paggamit ay maaaring maging nakakalason."
+        }
+      },
+      {
+        "name": {
+          "en": "Humic Acid Application",
+          "tl": "Paggamit ng Humic Acid"
+        },
+        "description": {
+          "en": "Improves nutrient uptake and stimulates plant growth.",
+          "tl": "Nagpapabuti ng pagkuha ng sustansya at nag-udyok ng paglaki ng halaman."
+        },
+        "application": {
+          "en": "Apply 0.1-0.2% humic acid solution as soil drench or foliar spray",
+          "tl": "Maglagay ng 0.1-0.2% humic acid solution bilang buhos sa lupa o spray sa dahon"
+        },
+        "effectiveness": {
+          "en": "Medium for plant vigor",
+          "tl": "Katamtaman para sa lakas ng halaman"
+        },
+        "cost": {
+          "en": "Medium",
+          "tl": "Katamtaman"
+        },
+        "timing": {
+          "en": "Monthly applications during growing season",
+          "tl": "Bawat buwang pag-gamit habang lumalaki"
+        },
+        "safety_precautions": {
+          "en": "Non-toxic but follow application guidelines.",
+          "tl": "Hindi nakakalason pero sundin ang application guidelines."
+        }
+      }
+    ]
+  }
+}
+

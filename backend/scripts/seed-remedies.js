@@ -10,9 +10,9 @@ const path = require('path');
 const { Remedy } = require('../src/models');
 const { sequelize } = require('../src/models');
 
-// Load remedies data
+// Load bilingual remedies data
 const remediesData = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '../data/ginger-remedies.json'), 'utf8')
+  fs.readFileSync(path.join(__dirname, '../data/ginger-remedies-complete-bilingual.json'), 'utf8')
 );
 
 /**
@@ -36,13 +36,31 @@ function formatDiseaseForDB(diseaseClass, diseaseInfo) {
   if (diseaseInfo.organic_remedies) {
     diseaseInfo.organic_remedies.forEach(remedy => {
       treatments.push({
-        name: remedy.name,
+        name: {
+          en: remedy.name.en,
+          tl: remedy.name.tl
+        },
         type: 'organic',
-        description: remedy.description,
-        application: remedy.application,
-        effectiveness: remedy.effectiveness,
-        cost: remedy.cost,
-        timing: remedy.timing
+        description: {
+          en: remedy.description.en,
+          tl: remedy.description.tl
+        },
+        application: {
+          en: remedy.application.en,
+          tl: remedy.application.tl
+        },
+        effectiveness: {
+          en: remedy.effectiveness.en,
+          tl: remedy.effectiveness.tl
+        },
+        cost: {
+          en: remedy.cost.en,
+          tl: remedy.cost.tl
+        },
+        timing: {
+          en: remedy.timing.en,
+          tl: remedy.timing.tl
+        }
       });
     });
   }
@@ -51,30 +69,66 @@ function formatDiseaseForDB(diseaseClass, diseaseInfo) {
   if (diseaseInfo.chemical_remedies) {
     diseaseInfo.chemical_remedies.forEach(remedy => {
       treatments.push({
-        name: remedy.name,
+        name: {
+          en: remedy.name.en,
+          tl: remedy.name.tl
+        },
         type: 'chemical',
-        description: remedy.description,
-        application: remedy.application,
-        effectiveness: remedy.effectiveness,
-        cost: remedy.cost,
-        timing: remedy.timing,
-        safetyPrecautions: remedy.safety_precautions || ''
+        description: {
+          en: remedy.description.en,
+          tl: remedy.description.tl
+        },
+        application: {
+          en: remedy.application.en,
+          tl: remedy.application.tl
+        },
+        effectiveness: {
+          en: remedy.effectiveness.en,
+          tl: remedy.effectiveness.tl
+        },
+        cost: {
+          en: remedy.cost.en,
+          tl: remedy.cost.tl
+        },
+        timing: {
+          en: remedy.timing.en,
+          tl: remedy.timing.tl
+        },
+        safetyPrecautions: remedy.safety_precautions ? {
+          en: remedy.safety_precautions.en,
+          tl: remedy.safety_precautions.tl
+        } : null
       });
     });
   }
 
   return {
-    diseaseName: diseaseInfo.disease_name,
+    diseaseName: diseaseInfo.disease_name.en, // Use English for database
     diseaseCode: diseaseClass.toUpperCase(),
-    description: diseaseInfo.description,
-    symptoms: diseaseInfo.symptoms || [],
+    description: diseaseInfo.description.en,
+    symptoms: diseaseInfo.symptoms.en || [],
     causes: [], // Will be populated separately if needed
     treatments: treatments,
-    preventionMeasures: diseaseInfo.prevention_measures || [],
+    preventionMeasures: diseaseInfo.prevention_measures.en || [],
     severity: severityMap[diseaseClass] || 'medium',
     imageUrl: null,
     isActive: true,
-    version: 1
+    version: 1,
+    // Store bilingual data as metadata
+    translations: {
+      en: {
+        diseaseName: diseaseInfo.disease_name.en,
+        description: diseaseInfo.description.en,
+        symptoms: diseaseInfo.symptoms.en || [],
+        preventionMeasures: diseaseInfo.prevention_measures.en || []
+      },
+      tl: {
+        diseaseName: diseaseInfo.disease_name.tl,
+        description: diseaseInfo.description.tl,
+        symptoms: diseaseInfo.symptoms.tl || [],
+        preventionMeasures: diseaseInfo.prevention_measures.tl || []
+      }
+    }
   };
 }
 
