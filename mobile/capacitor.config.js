@@ -3,13 +3,31 @@ const config = {
   appName: 'GingerlyAI',
   webDir: 'build',
   server: {
-    androidScheme: 'https'
+    androidScheme: 'https',
+    iosScheme: 'https'
+  },
+  ios: {
+    contentInset: 'always',
+    limitsNavigationsToAppBoundDomains: true,
+    allowsLinkPreview: false
+  },
+  android: {
+    buildOptions: {
+      keystorePath: undefined,
+      keystorePassword: undefined,
+      keystoreAlias: undefined,
+      keystoreAliasPassword: undefined
+    }
   },
   plugins: {
     SplashScreen: {
       launchShowDuration: 2000,
       backgroundColor: '#4CAF50',
-      showSpinner: false
+      showSpinner: false,
+      androidSplashResourceName: 'splash',
+      androidScaleType: 'CENTER_CROP',
+      iosSpinnerStyle: 'small',
+      spinnerColor: '#ffffff'
     },
     Camera: {
       permissions: {
@@ -25,6 +43,10 @@ const config = {
     LocalNotifications: {
       smallIcon: 'ic_stat_icon_config_sample',
       iconColor: '#4CAF50'
+    },
+    StatusBar: {
+      style: 'DARK',
+      backgroundColor: '#4CAF50'
     }
   }
 };

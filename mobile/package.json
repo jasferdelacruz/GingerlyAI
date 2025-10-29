@@ -10,7 +10,19 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "ionic:build": "react-scripts build",
-    "ionic:serve": "react-scripts start"
+    "ionic:serve": "react-scripts start",
+    "ios:add": "npx cap add ios",
+    "ios:sync": "npm run build && npx cap sync ios",
+    "ios:copy": "npx cap copy ios",
+    "ios:open": "npx cap open ios",
+    "ios:run": "npx cap run ios",
+    "ios:build": "npm run build && npx cap sync ios && npx cap open ios",
+    "android:sync": "npm run build && npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:run": "npx cap run android",
+    "android:build": "npm run build && npx cap sync android && npx cap open android",
+    "cap:sync": "npm run build && npx cap sync",
+    "cap:update": "npx cap update"
   },
   "dependencies": {
     "@capacitor/android": "^5.5.1",

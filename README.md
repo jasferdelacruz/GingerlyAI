@@ -162,20 +162,31 @@ gingerlyai/
    npm start
    ```
 
-4. **Mobile Development** (Optional)
+4. **Mobile Development**
+   
+   **For Android:**
    ```bash
-   # Add mobile platforms
-   npx cap add ios
-   npx cap add android
-   
-   # Build and sync
-   npm run build
-   npx cap sync
-   
-   # Open in native IDEs
-   npx cap open ios
-   npx cap open android
+   cd mobile
+   npm run android:build
+   # Opens Android Studio
    ```
+   
+   **For iOS** (macOS only):
+   ```bash
+   cd mobile
+   
+   # Quick setup (automated)
+   chmod +x setup-ios.sh
+   ./setup-ios.sh
+   
+   # Or manual setup
+   npm run ios:build
+   # Opens Xcode
+   ```
+   
+   📱 **See detailed guides:**
+   - iOS: `mobile/IOS_SETUP_GUIDE.md`
+   - Android: Standard Capacitor workflow
 
 ## 📱 Mobile App Features
 
