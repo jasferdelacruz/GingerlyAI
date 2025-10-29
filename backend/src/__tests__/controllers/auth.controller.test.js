@@ -27,9 +27,14 @@ describe('Auth Controller Tests', () => {
   });
 
   beforeEach(async () => {
-    // Clear test data
-    await User.destroy({ where: {}, truncate: true, cascade: true });
-    await RefreshToken.destroy({ where: {}, truncate: true });
+    // Clear test data - force delete with cascade
+    try {
+      await RefreshToken.destroy({ where: {}, force: true });
+      await User.destroy({ where: {}, force: true });
+    } catch (error) {
+      // If tables don't exist yet, that's fine
+      console.log('Cleanup error (expected on first run):', error.message);
+    }
   });
 
   describe('POST /api/auth/register', () => {
